@@ -45,3 +45,5 @@ C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire
 C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Release\OWCI.OWCIWinDLG.resources
 C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Release\OWCI.RegTable.resources
 C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Release\OWCI.csproj.GenerateResource.Cache
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Release\OWCI.exe
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Release\OWCI.pdb

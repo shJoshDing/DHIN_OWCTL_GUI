@@ -98,14 +98,14 @@
             this.lbl_pulsedurationtime_ow = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.grb_BurstI2CRW_OW = new System.Windows.Forms.GroupBox();
-            this.lbl_reg_data_burst_onewire = new System.Windows.Forms.Label();
-            this.txt_reg_data_owb = new System.Windows.Forms.TextBox();
             this.btn_I2CWrite_Burst_Onewire = new System.Windows.Forms.Button();
             this.btn_I2CRead_Burst_Onewire = new System.Windows.Forms.Button();
             this.txt_reg_addr_owb = new System.Windows.Forms.TextBox();
             this.txt_I2C_rw_num_owb = new System.Windows.Forms.TextBox();
             this.lbl_rw_num_burst_onewire = new System.Windows.Forms.Label();
             this.lbl_reg_addr_burst_onewire = new System.Windows.Forms.Label();
+            this.lbl_reg_data_burst_onewire = new System.Windows.Forms.Label();
+            this.txt_reg_data_owb = new System.Windows.Forms.TextBox();
             this.grb_devInfo_ow = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.numUD_pilotwidth_ow = new System.Windows.Forms.NumericUpDown();
@@ -169,7 +169,7 @@
             this.statusStrip.Location = new System.Drawing.Point(0, 507);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.statusStrip.Size = new System.Drawing.Size(1380, 22);
+            this.statusStrip.Size = new System.Drawing.Size(1026, 22);
             this.statusStrip.TabIndex = 22;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -963,28 +963,6 @@
             this.grb_BurstI2CRW_OW.TabStop = false;
             this.grb_BurstI2CRW_OW.Text = "Burst I2C R/W";
             // 
-            // lbl_reg_data_burst_onewire
-            // 
-            this.lbl_reg_data_burst_onewire.AutoSize = true;
-            this.lbl_reg_data_burst_onewire.Location = new System.Drawing.Point(179, 289);
-            this.lbl_reg_data_burst_onewire.Name = "lbl_reg_data_burst_onewire";
-            this.lbl_reg_data_burst_onewire.Size = new System.Drawing.Size(140, 13);
-            this.lbl_reg_data_burst_onewire.TabIndex = 55;
-            this.lbl_reg_data_burst_onewire.Text = "Data( Hex, Separate by \";\" )";
-            // 
-            // txt_reg_data_owb
-            // 
-            this.txt_reg_data_owb.BackColor = System.Drawing.Color.CadetBlue;
-            this.txt_reg_data_owb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_reg_data_owb.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_owb.Location = new System.Drawing.Point(181, 305);
-            this.txt_reg_data_owb.Multiline = true;
-            this.txt_reg_data_owb.Name = "txt_reg_data_owb";
-            this.txt_reg_data_owb.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt_reg_data_owb.Size = new System.Drawing.Size(718, 180);
-            this.txt_reg_data_owb.TabIndex = 54;
-            this.txt_reg_data_owb.Text = "00;00";
-            // 
             // btn_I2CWrite_Burst_Onewire
             // 
             this.btn_I2CWrite_Burst_Onewire.Location = new System.Drawing.Point(232, 39);
@@ -1046,6 +1024,29 @@
             this.lbl_reg_addr_burst_onewire.Size = new System.Drawing.Size(46, 13);
             this.lbl_reg_addr_burst_onewire.TabIndex = 47;
             this.lbl_reg_addr_burst_onewire.Text = "Addr( H)";
+            // 
+            // lbl_reg_data_burst_onewire
+            // 
+            this.lbl_reg_data_burst_onewire.AutoSize = true;
+            this.lbl_reg_data_burst_onewire.Location = new System.Drawing.Point(179, 289);
+            this.lbl_reg_data_burst_onewire.Name = "lbl_reg_data_burst_onewire";
+            this.lbl_reg_data_burst_onewire.Size = new System.Drawing.Size(140, 13);
+            this.lbl_reg_data_burst_onewire.TabIndex = 55;
+            this.lbl_reg_data_burst_onewire.Text = "Data( Hex, Separate by \";\" )";
+            // 
+            // txt_reg_data_owb
+            // 
+            this.txt_reg_data_owb.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txt_reg_data_owb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_reg_data_owb.ForeColor = System.Drawing.Color.White;
+            this.txt_reg_data_owb.Location = new System.Drawing.Point(181, 305);
+            this.txt_reg_data_owb.Multiline = true;
+            this.txt_reg_data_owb.Name = "txt_reg_data_owb";
+            this.txt_reg_data_owb.ReadOnly = true;
+            this.txt_reg_data_owb.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txt_reg_data_owb.Size = new System.Drawing.Size(718, 180);
+            this.txt_reg_data_owb.TabIndex = 54;
+            this.txt_reg_data_owb.Text = "00;00";
             // 
             // grb_devInfo_ow
             // 
@@ -1454,7 +1455,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1380, 529);
+            this.ClientSize = new System.Drawing.Size(1026, 529);
             this.Controls.Add(this.lbl_reg_data_burst_onewire);
             this.Controls.Add(this.txt_DelayTime);
             this.Controls.Add(this.label9);
