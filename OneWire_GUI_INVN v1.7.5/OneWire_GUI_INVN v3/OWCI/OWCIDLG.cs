@@ -744,26 +744,100 @@ namespace OWCI
                 string comment = sr.ReadLine();
                 string msg;
                 string[] sCommand;
+                
 
                 msg = sr.ReadLine();
 
                 while ( msg != null)
                 {
+                    uint Ix = 0;
                     sCommand = msg.Split(':');
 
                     switch ( sCommand[0] )
                     {
+                        case "WR":
+                        case "wr":
                         case "WReg":
-                            txt_reg_data_owb.Text += "WriteReg\r\n";
+                        case "wreg":
+                        case "WriteReg":
+                        case "writereg":
+                        case "WriteRegister":
+                        case "writeregister":
+                            txt_reg_data_owb.Text += "Write Registers\r\n";
+                            for( Ix = 0; Ix < ((sCommand.Length - 1)/2); Ix++ )
+                            {
+                                //I2CWrite_Single_OneWire(UInt32.Parse(sCommand[2 * Ix + 1]), UInt32.Parse(sCommand[2 * Ix + 2]));
+                            } 
                             break; 
 
+                        case "RR":
+                        case "rr":
                         case "RReg":
-                            txt_reg_data_owb.Text += "ReadReg\r\n";
+                        case "rreg":
+                        case "ReadReg":
+                        case "readreg":
+                        case "ReadRegister":
+                        case "readregister":
+                            txt_reg_data_owb.Text += "Read Registers\r\n";
+                            for (Ix = 0; Ix < (sCommand.Length - 1); Ix++)
+                            {
+                                //I2CRead_Single_OneWire(UInt32.Parse(sCommand[2 * Ix + 1]), UInt32.Parse(sCommand[2 * Ix + 2]));
+                            } 
                             break;
 
                         case "Fuse":
+                        case "fuse":
                             txt_reg_data_owb.Text += "Fuse\r\n";
                             break;
+
+                        case "BWR":
+                        case "bwr":
+                        case "BurstWriteReg":
+                        case "burstwritereg":
+                        case "BurstWriteRegister":
+                        case "burstwriteregister":
+                            txt_reg_data_owb.Text += "Burst Write Registers\r\n";
+                            break;
+
+                        case "BRR":
+                        case "brr":
+                        case "BurstReadReg":
+                        case "burstreadreg":
+                        case "BurstReadRegister":
+                        case "burstreadregister":
+                            txt_reg_data_owb.Text += "Burst Write Registers\r\n";
+                            break;
+
+                        case "SetPilot":
+                        case "setpilot":
+                        case "SP":
+                        case "sp":
+                            txt_reg_data_owb.Text += "Set Pilot\r\n";
+                            break;
+
+                        case "SetDelay":
+                        case "setdelay":
+                        case "SD":
+                        case "sd":
+                            txt_reg_data_owb.Text += "Set Operation Delay Time\r\n";
+                            break;
+
+                        case "SetLRAsOWCI":
+                        case "setlrasowci":
+                        case "slao":
+                        case "SLAO":
+                            txt_reg_data_owb.Text += "Set LR As OWCI\r\n";
+                            break;
+
+                        case "SetConfigAsOWCI":
+                        case "setconfigasowci":
+                        case "SCAO":
+                        case "scao":
+                            txt_reg_data_owb.Text += "Set Config As OWCI\r\n";
+                            break;
+
+
+
 
                         default:
                             break;
