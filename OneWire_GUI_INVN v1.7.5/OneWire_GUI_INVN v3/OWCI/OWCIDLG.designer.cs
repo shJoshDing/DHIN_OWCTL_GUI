@@ -139,8 +139,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.chb_ifWrite_DVG_AllNone = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.grb_SingleI2CRW_DGV_OW = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btn_Excute_Onewire = new System.Windows.Forms.Button();
+            this.btn_LoadScript_Onewire = new System.Windows.Forms.Button();
+            this.btn_SaveScript_Onewire = new System.Windows.Forms.Button();
             this.statusStrip.SuspendLayout();
             this.grb_SingleI2CRW_OW.SuspendLayout();
             this.grb_FuseMode_OW.SuspendLayout();
@@ -153,7 +155,6 @@
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.grb_SingleI2CRW_DGV_OW.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer1
@@ -1028,25 +1029,24 @@
             // lbl_reg_data_burst_onewire
             // 
             this.lbl_reg_data_burst_onewire.AutoSize = true;
-            this.lbl_reg_data_burst_onewire.Location = new System.Drawing.Point(179, 289);
+            this.lbl_reg_data_burst_onewire.Location = new System.Drawing.Point(365, 289);
             this.lbl_reg_data_burst_onewire.Name = "lbl_reg_data_burst_onewire";
-            this.lbl_reg_data_burst_onewire.Size = new System.Drawing.Size(140, 13);
+            this.lbl_reg_data_burst_onewire.Size = new System.Drawing.Size(91, 13);
             this.lbl_reg_data_burst_onewire.TabIndex = 55;
-            this.lbl_reg_data_burst_onewire.Text = "Data( Hex, Separate by \";\" )";
+            this.lbl_reg_data_burst_onewire.Text = "Operation Output:";
             // 
             // txt_reg_data_owb
             // 
             this.txt_reg_data_owb.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txt_reg_data_owb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_owb.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_owb.Location = new System.Drawing.Point(181, 305);
+            this.txt_reg_data_owb.Location = new System.Drawing.Point(368, 305);
             this.txt_reg_data_owb.Multiline = true;
             this.txt_reg_data_owb.Name = "txt_reg_data_owb";
             this.txt_reg_data_owb.ReadOnly = true;
             this.txt_reg_data_owb.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt_reg_data_owb.Size = new System.Drawing.Size(718, 180);
+            this.txt_reg_data_owb.Size = new System.Drawing.Size(531, 180);
             this.txt_reg_data_owb.TabIndex = 54;
-            this.txt_reg_data_owb.Text = "00;00";
             // 
             // grb_devInfo_ow
             // 
@@ -1344,7 +1344,7 @@
             // 
             // btn_I2CRead_DGV_Onewire
             // 
-            this.btn_I2CRead_DGV_Onewire.Location = new System.Drawing.Point(331, 169);
+            this.btn_I2CRead_DGV_Onewire.Location = new System.Drawing.Point(393, 93);
             this.btn_I2CRead_DGV_Onewire.Name = "btn_I2CRead_DGV_Onewire";
             this.btn_I2CRead_DGV_Onewire.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_DGV_Onewire.TabIndex = 73;
@@ -1354,7 +1354,7 @@
             // 
             // btn_I2CWrite_DGV_Onewire
             // 
-            this.btn_I2CWrite_DGV_Onewire.Location = new System.Drawing.Point(331, 210);
+            this.btn_I2CWrite_DGV_Onewire.Location = new System.Drawing.Point(393, 111);
             this.btn_I2CWrite_DGV_Onewire.Name = "btn_I2CWrite_DGV_Onewire";
             this.btn_I2CWrite_DGV_Onewire.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_DGV_Onewire.TabIndex = 74;
@@ -1364,7 +1364,7 @@
             // 
             // btn_IfRW_DVG_Default
             // 
-            this.btn_IfRW_DVG_Default.Location = new System.Drawing.Point(331, 125);
+            this.btn_IfRW_DVG_Default.Location = new System.Drawing.Point(393, 75);
             this.btn_IfRW_DVG_Default.Name = "btn_IfRW_DVG_Default";
             this.btn_IfRW_DVG_Default.Size = new System.Drawing.Size(56, 23);
             this.btn_IfRW_DVG_Default.TabIndex = 75;
@@ -1377,7 +1377,7 @@
             this.chb_ifRead_DVG_AllNone.AutoSize = true;
             this.chb_ifRead_DVG_AllNone.Checked = true;
             this.chb_ifRead_DVG_AllNone.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chb_ifRead_DVG_AllNone.Location = new System.Drawing.Point(341, 42);
+            this.chb_ifRead_DVG_AllNone.Location = new System.Drawing.Point(439, 31);
             this.chb_ifRead_DVG_AllNone.Name = "chb_ifRead_DVG_AllNone";
             this.chb_ifRead_DVG_AllNone.Size = new System.Drawing.Size(37, 17);
             this.chb_ifRead_DVG_AllNone.TabIndex = 0;
@@ -1390,7 +1390,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(338, 24);
+            this.label1.Location = new System.Drawing.Point(390, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 77;
@@ -1401,7 +1401,7 @@
             this.chb_ifWrite_DVG_AllNone.AutoSize = true;
             this.chb_ifWrite_DVG_AllNone.Checked = true;
             this.chb_ifWrite_DVG_AllNone.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chb_ifWrite_DVG_AllNone.Location = new System.Drawing.Point(341, 88);
+            this.chb_ifWrite_DVG_AllNone.Location = new System.Drawing.Point(439, 52);
             this.chb_ifWrite_DVG_AllNone.Name = "chb_ifWrite_DVG_AllNone";
             this.chb_ifWrite_DVG_AllNone.Size = new System.Drawing.Size(37, 17);
             this.chb_ifWrite_DVG_AllNone.TabIndex = 78;
@@ -1414,41 +1414,54 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(337, 70);
+            this.label2.Location = new System.Drawing.Point(389, 52);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 79;
             this.label2.Text = "If Write";
-            // 
-            // grb_SingleI2CRW_DGV_OW
-            // 
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.label2);
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.chb_ifWrite_DVG_AllNone);
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.label1);
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.textBox1);
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.chb_ifRead_DVG_AllNone);
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.btn_IfRW_DVG_Default);
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.btn_I2CWrite_DGV_Onewire);
-            this.grb_SingleI2CRW_DGV_OW.Controls.Add(this.btn_I2CRead_DGV_Onewire);
-            this.grb_SingleI2CRW_DGV_OW.Location = new System.Drawing.Point(181, 12);
-            this.grb_SingleI2CRW_DGV_OW.Name = "grb_SingleI2CRW_DGV_OW";
-            this.grb_SingleI2CRW_DGV_OW.Size = new System.Drawing.Size(406, 259);
-            this.grb_SingleI2CRW_DGV_OW.TabIndex = 81;
-            this.grb_SingleI2CRW_DGV_OW.TabStop = false;
-            this.grb_SingleI2CRW_DGV_OW.Text = "Excute Sequence";
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.CadetBlue;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(6, 19);
+            this.textBox1.Location = new System.Drawing.Point(195, 28);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(307, 234);
+            this.textBox1.Size = new System.Drawing.Size(164, 454);
             this.textBox1.TabIndex = 54;
             this.textBox1.Text = "00;00";
+            // 
+            // btn_Excute_Onewire
+            // 
+            this.btn_Excute_Onewire.Location = new System.Drawing.Point(393, 227);
+            this.btn_Excute_Onewire.Name = "btn_Excute_Onewire";
+            this.btn_Excute_Onewire.Size = new System.Drawing.Size(56, 23);
+            this.btn_Excute_Onewire.TabIndex = 74;
+            this.btn_Excute_Onewire.Text = "Excute";
+            this.btn_Excute_Onewire.UseVisualStyleBackColor = true;
+            this.btn_Excute_Onewire.Click += new System.EventHandler(this.btn_Excute_Onewire_Click);
+            // 
+            // btn_LoadScript_Onewire
+            // 
+            this.btn_LoadScript_Onewire.Location = new System.Drawing.Point(393, 181);
+            this.btn_LoadScript_Onewire.Name = "btn_LoadScript_Onewire";
+            this.btn_LoadScript_Onewire.Size = new System.Drawing.Size(70, 23);
+            this.btn_LoadScript_Onewire.TabIndex = 74;
+            this.btn_LoadScript_Onewire.Text = "Load Script";
+            this.btn_LoadScript_Onewire.UseVisualStyleBackColor = true;
+            this.btn_LoadScript_Onewire.Click += new System.EventHandler(this.btn_LoadScript_Onewire_Click);
+            // 
+            // btn_SaveScript_Onewire
+            // 
+            this.btn_SaveScript_Onewire.Location = new System.Drawing.Point(393, 155);
+            this.btn_SaveScript_Onewire.Name = "btn_SaveScript_Onewire";
+            this.btn_SaveScript_Onewire.Size = new System.Drawing.Size(70, 23);
+            this.btn_SaveScript_Onewire.TabIndex = 74;
+            this.btn_SaveScript_Onewire.Text = "Save Script";
+            this.btn_SaveScript_Onewire.UseVisualStyleBackColor = true;
+            this.btn_SaveScript_Onewire.Click += new System.EventHandler(this.btn_SaveScript_Onewire_Click);
             // 
             // OWCIWinDLG
             // 
@@ -1456,11 +1469,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1026, 529);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lbl_reg_data_burst_onewire);
+            this.Controls.Add(this.chb_ifWrite_DVG_AllNone);
             this.Controls.Add(this.txt_DelayTime);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label9);
+            this.Controls.Add(this.chb_ifRead_DVG_AllNone);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_IfRW_DVG_Default);
             this.Controls.Add(this.txt_reg_data_owb);
+            this.Controls.Add(this.btn_SaveScript_Onewire);
+            this.Controls.Add(this.btn_LoadScript_Onewire);
+            this.Controls.Add(this.btn_Excute_Onewire);
             this.Controls.Add(this.panel4);
+            this.Controls.Add(this.btn_I2CWrite_DGV_Onewire);
+            this.Controls.Add(this.btn_I2CRead_DGV_Onewire);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.label4);
@@ -1468,7 +1492,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_enterTestMode_OWCI);
-            this.Controls.Add(this.grb_SingleI2CRW_DGV_OW);
             this.Controls.Add(this.grb_SingleI2CRW_OW);
             this.Controls.Add(this.grb_FuseMode_OW);
             this.Controls.Add(this.grb_BurstI2CRW_OW);
@@ -1499,8 +1522,6 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.grb_SingleI2CRW_DGV_OW.ResumeLayout(false);
-            this.grb_SingleI2CRW_DGV_OW.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1618,8 +1639,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox chb_ifWrite_DVG_AllNone;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox grb_SingleI2CRW_DGV_OW;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btn_Excute_Onewire;
+        private System.Windows.Forms.Button btn_LoadScript_Onewire;
+        private System.Windows.Forms.Button btn_SaveScript_Onewire;
     }
 }
 

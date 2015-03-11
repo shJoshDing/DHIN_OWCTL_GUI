@@ -137,7 +137,7 @@ namespace OWCI
             }
 
             regTabCtrl = new RegTable(RegTabList_Cur);
-            this.panelRegTable.Controls.Add(regTabCtrl);
+            //this.panelRegTable.Controls.Add(regTabCtrl);
             regTabCtrl.Dock = DockStyle.Fill;
             //this.regTable1.BindingDataSource(RegTabList);
             #endregion Fill in register table
@@ -724,6 +724,73 @@ namespace OWCI
             I2CRead_Single_OneWire(this.txt_reg_addr_ows4, this.txt_reg_data_ows4);
         }
 
+        private void btn_Excute_Onewire_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OpenFileDialog openfiledlg = new OpenFileDialog();
+                openfiledlg.Title = "Please choose the config file to be imported...";
+                openfiledlg.Filter = "Config file(*.cfg)|*.cfg";
+                openfiledlg.RestoreDirectory = true;
+                string filename = "";
+                if (openfiledlg.ShowDialog() == DialogResult.OK)
+                {
+                    filename = openfiledlg.FileName;
+                }
+                else
+                    return;
+
+                StreamReader sr = new StreamReader(filename);
+                string comment = sr.ReadLine();
+                string msg;
+                string[] sCommand;
+
+                msg = sr.ReadLine();
+
+                while ( msg != null)
+                {
+                    sCommand = msg.Split(':');
+
+                    switch ( sCommand[0] )
+                    {
+                        case "WReg":
+                            txt_reg_data_owb.Text += "WriteReg\r\n";
+                            break; 
+
+                        case "RReg":
+                            txt_reg_data_owb.Text += "ReadReg\r\n";
+                            break;
+
+                        case "Fuse":
+                            txt_reg_data_owb.Text += "Fuse\r\n";
+                            break;
+
+                        default:
+                            break;
+
+
+                    }
+                    msg = sr.ReadLine();
+                
+                }
+
+            }
+            catch
+            {
+                MessageBox.Show("Load config file failed, please choose correct file!");
+            }
+        }
+
+        private void btn_LoadScript_Onewire_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_SaveScript_Onewire_Click(object sender, EventArgs e)
+        {
+
+        }
+       
 
     }
 
