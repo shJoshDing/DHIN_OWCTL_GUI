@@ -67,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="OWCIDLG.resx">
       <DependentUpon>OWCIDLG.cs</DependentUpon>
@@ -89,6 +90,9 @@
       <Project>{C5C3E0BC-E338-452A-96F4-4AE3C998FADB}</Project>
       <Name>DMY2</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20140120142753_66772.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
