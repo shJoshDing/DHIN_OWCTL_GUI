@@ -151,11 +151,14 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
+            this.btn_LoadOtp_Onewire = new System.Windows.Forms.Button();
+            this.btn_SaveOtp_Onewire = new System.Windows.Forms.Button();
+            this.btn_BlowOtp_Onewire = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.statusStrip.SuspendLayout();
             this.grb_SingleI2CRW_OW.SuspendLayout();
             this.grb_FuseMode_OW.SuspendLayout();
@@ -173,6 +176,7 @@
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -188,7 +192,7 @@
             this.statusStrip.Location = new System.Drawing.Point(0, 770);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.statusStrip.Size = new System.Drawing.Size(1118, 22);
+            this.statusStrip.Size = new System.Drawing.Size(1123, 22);
             this.statusStrip.TabIndex = 22;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -1054,7 +1058,7 @@
             this.txt_reg_data_owb.Name = "txt_reg_data_owb";
             this.txt_reg_data_owb.ReadOnly = true;
             this.txt_reg_data_owb.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txt_reg_data_owb.Size = new System.Drawing.Size(744, 189);
+            this.txt_reg_data_owb.Size = new System.Drawing.Size(508, 189);
             this.txt_reg_data_owb.TabIndex = 54;
             // 
             // grb_devInfo_ow
@@ -1455,7 +1459,7 @@
             // 
             this.btn_Excute_Onewire.Location = new System.Drawing.Point(15, 627);
             this.btn_Excute_Onewire.Name = "btn_Excute_Onewire";
-            this.btn_Excute_Onewire.Size = new System.Drawing.Size(153, 23);
+            this.btn_Excute_Onewire.Size = new System.Drawing.Size(201, 23);
             this.btn_Excute_Onewire.TabIndex = 74;
             this.btn_Excute_Onewire.Text = "Excute";
             this.btn_Excute_Onewire.UseVisualStyleBackColor = true;
@@ -1465,7 +1469,7 @@
             // 
             this.btn_LoadScript_Onewire.Location = new System.Drawing.Point(15, 598);
             this.btn_LoadScript_Onewire.Name = "btn_LoadScript_Onewire";
-            this.btn_LoadScript_Onewire.Size = new System.Drawing.Size(70, 23);
+            this.btn_LoadScript_Onewire.Size = new System.Drawing.Size(85, 23);
             this.btn_LoadScript_Onewire.TabIndex = 74;
             this.btn_LoadScript_Onewire.Text = "Load Script";
             this.btn_LoadScript_Onewire.UseVisualStyleBackColor = true;
@@ -1473,9 +1477,9 @@
             // 
             // btn_SaveScript_Onewire
             // 
-            this.btn_SaveScript_Onewire.Location = new System.Drawing.Point(98, 598);
+            this.btn_SaveScript_Onewire.Location = new System.Drawing.Point(131, 598);
             this.btn_SaveScript_Onewire.Name = "btn_SaveScript_Onewire";
-            this.btn_SaveScript_Onewire.Size = new System.Drawing.Size(70, 23);
+            this.btn_SaveScript_Onewire.Size = new System.Drawing.Size(85, 23);
             this.btn_SaveScript_Onewire.TabIndex = 74;
             this.btn_SaveScript_Onewire.Text = "Save Script";
             this.btn_SaveScript_Onewire.UseVisualStyleBackColor = true;
@@ -1563,7 +1567,7 @@
             this.groupBox2.Controls.Add(this.btn_SaveScript_Onewire);
             this.groupBox2.Controls.Add(this.btn_LoadScript_Onewire);
             this.groupBox2.Controls.Add(this.btn_Excute_Onewire);
-            this.groupBox2.Location = new System.Drawing.Point(838, 101);
+            this.groupBox2.Location = new System.Drawing.Point(843, 101);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(222, 662);
             this.groupBox2.TabIndex = 96;
@@ -1572,25 +1576,16 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox2);
+            this.groupBox3.Controls.Add(this.btn_BlowOtp_Onewire);
+            this.groupBox3.Controls.Add(this.btn_SaveOtp_Onewire);
+            this.groupBox3.Controls.Add(this.btn_LoadOtp_Onewire);
+            this.groupBox3.Controls.Add(this.pictureBox2);
             this.groupBox3.Location = new System.Drawing.Point(601, 101);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(206, 446);
+            this.groupBox3.Size = new System.Drawing.Size(211, 662);
             this.groupBox3.TabIndex = 97;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "OPT Window";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.CadetBlue;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(15, 18);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(185, 367);
-            this.textBox2.TabIndex = 54;
+            this.groupBox3.Text = "OTP Window";
             // 
             // groupBox4
             // 
@@ -1625,19 +1620,10 @@
             this.groupBox4.Controls.Add(this.btn_I2CRead_Single_Onewire1);
             this.groupBox4.Location = new System.Drawing.Point(61, 556);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(746, 207);
+            this.groupBox4.Size = new System.Drawing.Size(510, 207);
             this.groupBox4.TabIndex = 98;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Operation Log";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::OWCI.Properties.Resources._20140120142753_66772;
-            this.pictureBox1.Location = new System.Drawing.Point(61, 16);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(98, 50);
-            this.pictureBox1.TabIndex = 99;
-            this.pictureBox1.TabStop = false;
             // 
             // button1
             // 
@@ -1651,19 +1637,67 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Broadway", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Broadway", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(193, 23);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(827, 32);
+            this.label14.Size = new System.Drawing.Size(781, 32);
             this.label14.TabIndex = 101;
             this.label14.Text = "OWCI Control GUI, Designed for MEMS Microphone";
+            // 
+            // btn_LoadOtp_Onewire
+            // 
+            this.btn_LoadOtp_Onewire.Location = new System.Drawing.Point(6, 598);
+            this.btn_LoadOtp_Onewire.Name = "btn_LoadOtp_Onewire";
+            this.btn_LoadOtp_Onewire.Size = new System.Drawing.Size(84, 23);
+            this.btn_LoadOtp_Onewire.TabIndex = 74;
+            this.btn_LoadOtp_Onewire.Text = "Load OTP";
+            this.btn_LoadOtp_Onewire.UseVisualStyleBackColor = true;
+            this.btn_LoadOtp_Onewire.Click += new System.EventHandler(this.btn_LoadOtp_Onewire_Click);
+            // 
+            // btn_SaveOtp_Onewire
+            // 
+            this.btn_SaveOtp_Onewire.Location = new System.Drawing.Point(118, 598);
+            this.btn_SaveOtp_Onewire.Name = "btn_SaveOtp_Onewire";
+            this.btn_SaveOtp_Onewire.Size = new System.Drawing.Size(84, 23);
+            this.btn_SaveOtp_Onewire.TabIndex = 74;
+            this.btn_SaveOtp_Onewire.Text = "Save OTP";
+            this.btn_SaveOtp_Onewire.UseVisualStyleBackColor = true;
+            this.btn_SaveOtp_Onewire.Click += new System.EventHandler(this.btn_SaveOtp_Onewire_Click);
+            // 
+            // btn_BlowOtp_Onewire
+            // 
+            this.btn_BlowOtp_Onewire.Location = new System.Drawing.Point(6, 627);
+            this.btn_BlowOtp_Onewire.Name = "btn_BlowOtp_Onewire";
+            this.btn_BlowOtp_Onewire.Size = new System.Drawing.Size(196, 23);
+            this.btn_BlowOtp_Onewire.TabIndex = 74;
+            this.btn_BlowOtp_Onewire.Text = "Blow OTP";
+            this.btn_BlowOtp_Onewire.UseVisualStyleBackColor = true;
+            this.btn_BlowOtp_Onewire.Click += new System.EventHandler(this.btn_BlowOtp_Onewire_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::OWCI.Properties.Resources._20140120142753_66772;
+            this.pictureBox1.Location = new System.Drawing.Point(61, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(98, 50);
+            this.pictureBox1.TabIndex = 99;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::OWCI.Properties.Resources.otp2;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(196, 573);
+            this.pictureBox2.TabIndex = 99;
+            this.pictureBox2.TabStop = false;
             // 
             // OWCIWinDLG
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1118, 792);
+            this.ClientSize = new System.Drawing.Size(1123, 792);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
@@ -1707,10 +1741,10 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1840,11 +1874,14 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button btn_LoadOtp_Onewire;
+        private System.Windows.Forms.Button btn_SaveOtp_Onewire;
+        private System.Windows.Forms.Button btn_BlowOtp_Onewire;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

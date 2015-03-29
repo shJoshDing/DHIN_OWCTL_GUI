@@ -864,6 +864,21 @@ namespace OWCI
         {
 
         }
+
+        private void btn_LoadOtp_Onewire_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_SaveOtp_Onewire_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_BlowOtp_Onewire_Click(object sender, EventArgs e)
+        {
+
+        }
        
 
     }
