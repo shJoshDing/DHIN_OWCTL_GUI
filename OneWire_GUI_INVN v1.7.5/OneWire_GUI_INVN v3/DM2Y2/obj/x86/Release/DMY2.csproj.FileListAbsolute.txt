@@ -33,3 +33,10 @@ C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWi
 C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\DMY2.csproj.GenerateResource.Cache
 C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\DMY2.dll
 C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\DMY2.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\bin\Release\DMY2.dll
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\bin\Release\DMY2.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\DMY2.csprojResolveAssemblyReference.cache
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\ADI.DMY2.Properties.Resources.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\DMY2.csproj.GenerateResource.Cache
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\DMY2.dll
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\DM2Y2\obj\x86\Release\DMY2.pdb

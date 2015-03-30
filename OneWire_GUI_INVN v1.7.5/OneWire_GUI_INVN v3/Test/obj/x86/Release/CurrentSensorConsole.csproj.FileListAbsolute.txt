@@ -41,3 +41,17 @@ C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWi
 C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csproj.GenerateResource.Cache
 C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.exe
 C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.exe
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.dll
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csprojResolveAssemblyReference.cache
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.CurrentSensorConsole.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.FormList.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.PaintPanal.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensor.Properties.Resources.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestGUI.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestPaintWav.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csproj.GenerateResource.Cache
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.exe
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.pdb
