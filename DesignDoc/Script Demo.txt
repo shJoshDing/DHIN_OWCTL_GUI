@@ -1,12 +1,14 @@
-Write: 0x80; 0x02
-Read: 0x82
+Script for DSM measurement of MD008
+
+Write: Reg0x80; Data0x02
+Read: Reg0x82
 SetPilotWidth: 200us
-BurstRead: 0x00; 0x10
+BurstRead: Reg0x00; Num0x10
 Delay: 100ms
 SetLRasConfig
-Read: 0x40
+Read: Reg0x40
 ...
 ...
 ...
 ...
-...
+

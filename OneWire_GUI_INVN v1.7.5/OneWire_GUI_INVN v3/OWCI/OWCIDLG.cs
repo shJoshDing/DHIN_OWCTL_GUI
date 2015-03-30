@@ -879,6 +879,11 @@ namespace OWCI
         {
 
         }
+
+        private void btn_ReadOtp_Onewire_Click(object sender, EventArgs e)
+        {
+
+        }
        
 
     }

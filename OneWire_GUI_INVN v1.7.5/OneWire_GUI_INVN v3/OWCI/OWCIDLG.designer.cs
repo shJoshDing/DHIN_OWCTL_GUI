@@ -151,14 +151,16 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.btn_BlowOtp_Onewire = new System.Windows.Forms.Button();
+            this.btn_SaveOtp_Onewire = new System.Windows.Forms.Button();
+            this.btn_LoadOtp_Onewire = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
-            this.btn_LoadOtp_Onewire = new System.Windows.Forms.Button();
-            this.btn_SaveOtp_Onewire = new System.Windows.Forms.Button();
-            this.btn_BlowOtp_Onewire = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn_ReadOtp_Onewire = new System.Windows.Forms.Button();
             this.statusStrip.SuspendLayout();
             this.grb_SingleI2CRW_OW.SuspendLayout();
             this.grb_FuseMode_OW.SuspendLayout();
@@ -174,9 +176,9 @@
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -189,10 +191,10 @@
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel_Connection,
             this.toolStripStatusLabel_FWInfo});
-            this.statusStrip.Location = new System.Drawing.Point(0, 770);
+            this.statusStrip.Location = new System.Drawing.Point(0, 738);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.statusStrip.Size = new System.Drawing.Size(1123, 22);
+            this.statusStrip.Size = new System.Drawing.Size(1162, 22);
             this.statusStrip.TabIndex = 22;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -247,7 +249,7 @@
             this.grb_SingleI2CRW_OW.Controls.Add(this.txt_reg_data_ows5);
             this.grb_SingleI2CRW_OW.Controls.Add(this.lbl_reg_data_single_onewire);
             this.grb_SingleI2CRW_OW.Controls.Add(this.lbl_reg_addr_single_onewire);
-            this.grb_SingleI2CRW_OW.Location = new System.Drawing.Point(257, 178);
+            this.grb_SingleI2CRW_OW.Location = new System.Drawing.Point(257, 147);
             this.grb_SingleI2CRW_OW.Name = "grb_SingleI2CRW_OW";
             this.grb_SingleI2CRW_OW.Size = new System.Drawing.Size(314, 283);
             this.grb_SingleI2CRW_OW.TabIndex = 78;
@@ -854,7 +856,7 @@
             this.grb_FuseMode_OW.Controls.Add(this.chb_FuseModeSwitch);
             this.grb_FuseMode_OW.Controls.Add(this.lbl_pulsedurationtime_ow);
             this.grb_FuseMode_OW.Controls.Add(this.label6);
-            this.grb_FuseMode_OW.Location = new System.Drawing.Point(61, 367);
+            this.grb_FuseMode_OW.Location = new System.Drawing.Point(61, 336);
             this.grb_FuseMode_OW.Name = "grb_FuseMode_OW";
             this.grb_FuseMode_OW.Size = new System.Drawing.Size(168, 148);
             this.grb_FuseMode_OW.TabIndex = 80;
@@ -979,12 +981,12 @@
             this.grb_BurstI2CRW_OW.Controls.Add(this.txt_I2C_rw_num_owb);
             this.grb_BurstI2CRW_OW.Controls.Add(this.lbl_rw_num_burst_onewire);
             this.grb_BurstI2CRW_OW.Controls.Add(this.lbl_reg_addr_burst_onewire);
-            this.grb_BurstI2CRW_OW.Location = new System.Drawing.Point(257, 471);
+            this.grb_BurstI2CRW_OW.Location = new System.Drawing.Point(257, 440);
             this.grb_BurstI2CRW_OW.Name = "grb_BurstI2CRW_OW";
             this.grb_BurstI2CRW_OW.Size = new System.Drawing.Size(314, 76);
             this.grb_BurstI2CRW_OW.TabIndex = 79;
             this.grb_BurstI2CRW_OW.TabStop = false;
-            this.grb_BurstI2CRW_OW.Text = "Burst I2C R/W";
+            this.grb_BurstI2CRW_OW.Text = "Burst Registers R/W";
             // 
             // btn_I2CWrite_Burst_Onewire
             // 
@@ -1053,7 +1055,7 @@
             this.txt_reg_data_owb.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txt_reg_data_owb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_owb.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_owb.Location = new System.Drawing.Point(63, 574);
+            this.txt_reg_data_owb.Location = new System.Drawing.Point(63, 542);
             this.txt_reg_data_owb.Multiline = true;
             this.txt_reg_data_owb.Name = "txt_reg_data_owb";
             this.txt_reg_data_owb.ReadOnly = true;
@@ -1076,7 +1078,7 @@
             this.grb_devInfo_ow.Controls.Add(this.panel3);
             this.grb_devInfo_ow.Controls.Add(this.label5);
             this.grb_devInfo_ow.Controls.Add(this.panel4);
-            this.grb_devInfo_ow.Location = new System.Drawing.Point(61, 100);
+            this.grb_devInfo_ow.Location = new System.Drawing.Point(61, 69);
             this.grb_devInfo_ow.Name = "grb_devInfo_ow";
             this.grb_devInfo_ow.Size = new System.Drawing.Size(168, 259);
             this.grb_devInfo_ow.TabIndex = 77;
@@ -1325,7 +1327,7 @@
             // 
             // btn_flash_onewire
             // 
-            this.btn_flash_onewire.Location = new System.Drawing.Point(158, 524);
+            this.btn_flash_onewire.Location = new System.Drawing.Point(158, 490);
             this.btn_flash_onewire.Name = "btn_flash_onewire";
             this.btn_flash_onewire.Size = new System.Drawing.Size(71, 23);
             this.btn_flash_onewire.TabIndex = 75;
@@ -1335,7 +1337,7 @@
             // 
             // btn_GetFW_OneWire
             // 
-            this.btn_GetFW_OneWire.Location = new System.Drawing.Point(61, 524);
+            this.btn_GetFW_OneWire.Location = new System.Drawing.Point(61, 493);
             this.btn_GetFW_OneWire.Name = "btn_GetFW_OneWire";
             this.btn_GetFW_OneWire.Size = new System.Drawing.Size(71, 23);
             this.btn_GetFW_OneWire.TabIndex = 76;
@@ -1446,20 +1448,20 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.CadetBlue;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold);
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(15, 18);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(201, 574);
+            this.textBox1.Size = new System.Drawing.Size(253, 574);
             this.textBox1.TabIndex = 54;
             // 
             // btn_Excute_Onewire
             // 
-            this.btn_Excute_Onewire.Location = new System.Drawing.Point(15, 627);
+            this.btn_Excute_Onewire.Location = new System.Drawing.Point(148, 598);
             this.btn_Excute_Onewire.Name = "btn_Excute_Onewire";
-            this.btn_Excute_Onewire.Size = new System.Drawing.Size(201, 23);
+            this.btn_Excute_Onewire.Size = new System.Drawing.Size(100, 52);
             this.btn_Excute_Onewire.TabIndex = 74;
             this.btn_Excute_Onewire.Text = "Excute";
             this.btn_Excute_Onewire.UseVisualStyleBackColor = true;
@@ -1469,7 +1471,7 @@
             // 
             this.btn_LoadScript_Onewire.Location = new System.Drawing.Point(15, 598);
             this.btn_LoadScript_Onewire.Name = "btn_LoadScript_Onewire";
-            this.btn_LoadScript_Onewire.Size = new System.Drawing.Size(85, 23);
+            this.btn_LoadScript_Onewire.Size = new System.Drawing.Size(100, 23);
             this.btn_LoadScript_Onewire.TabIndex = 74;
             this.btn_LoadScript_Onewire.Text = "Load Script";
             this.btn_LoadScript_Onewire.UseVisualStyleBackColor = true;
@@ -1477,9 +1479,9 @@
             // 
             // btn_SaveScript_Onewire
             // 
-            this.btn_SaveScript_Onewire.Location = new System.Drawing.Point(131, 598);
+            this.btn_SaveScript_Onewire.Location = new System.Drawing.Point(15, 627);
             this.btn_SaveScript_Onewire.Name = "btn_SaveScript_Onewire";
-            this.btn_SaveScript_Onewire.Size = new System.Drawing.Size(85, 23);
+            this.btn_SaveScript_Onewire.Size = new System.Drawing.Size(100, 23);
             this.btn_SaveScript_Onewire.TabIndex = 74;
             this.btn_SaveScript_Onewire.Text = "Save Script";
             this.btn_SaveScript_Onewire.UseVisualStyleBackColor = true;
@@ -1554,7 +1556,7 @@
             this.groupBox1.Controls.Add(this.label13);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.btn_enterTestMode_OWCI);
-            this.groupBox1.Location = new System.Drawing.Point(257, 101);
+            this.groupBox1.Location = new System.Drawing.Point(257, 70);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(314, 69);
             this.groupBox1.TabIndex = 95;
@@ -1567,25 +1569,69 @@
             this.groupBox2.Controls.Add(this.btn_SaveScript_Onewire);
             this.groupBox2.Controls.Add(this.btn_LoadScript_Onewire);
             this.groupBox2.Controls.Add(this.btn_Excute_Onewire);
-            this.groupBox2.Location = new System.Drawing.Point(843, 101);
+            this.groupBox2.Location = new System.Drawing.Point(838, 71);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(222, 662);
+            this.groupBox2.Size = new System.Drawing.Size(274, 662);
             this.groupBox2.TabIndex = 96;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Script Window";
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.btn_ReadOtp_Onewire);
+            this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Controls.Add(this.btn_BlowOtp_Onewire);
             this.groupBox3.Controls.Add(this.btn_SaveOtp_Onewire);
             this.groupBox3.Controls.Add(this.btn_LoadOtp_Onewire);
             this.groupBox3.Controls.Add(this.pictureBox2);
-            this.groupBox3.Location = new System.Drawing.Point(601, 101);
+            this.groupBox3.Location = new System.Drawing.Point(601, 71);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(211, 662);
             this.groupBox3.TabIndex = 97;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "OTP Window";
+            // 
+            // btn_BlowOtp_Onewire
+            // 
+            this.btn_BlowOtp_Onewire.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_BlowOtp_Onewire.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BlowOtp_Onewire.ForeColor = System.Drawing.Color.Red;
+            this.btn_BlowOtp_Onewire.Location = new System.Drawing.Point(150, 598);
+            this.btn_BlowOtp_Onewire.Name = "btn_BlowOtp_Onewire";
+            this.btn_BlowOtp_Onewire.Size = new System.Drawing.Size(57, 52);
+            this.btn_BlowOtp_Onewire.TabIndex = 74;
+            this.btn_BlowOtp_Onewire.Text = "BLOW OTP";
+            this.btn_BlowOtp_Onewire.UseVisualStyleBackColor = true;
+            this.btn_BlowOtp_Onewire.Click += new System.EventHandler(this.btn_BlowOtp_Onewire_Click);
+            // 
+            // btn_SaveOtp_Onewire
+            // 
+            this.btn_SaveOtp_Onewire.Location = new System.Drawing.Point(6, 627);
+            this.btn_SaveOtp_Onewire.Name = "btn_SaveOtp_Onewire";
+            this.btn_SaveOtp_Onewire.Size = new System.Drawing.Size(67, 23);
+            this.btn_SaveOtp_Onewire.TabIndex = 74;
+            this.btn_SaveOtp_Onewire.Text = "Save Data";
+            this.btn_SaveOtp_Onewire.UseVisualStyleBackColor = true;
+            this.btn_SaveOtp_Onewire.Click += new System.EventHandler(this.btn_SaveOtp_Onewire_Click);
+            // 
+            // btn_LoadOtp_Onewire
+            // 
+            this.btn_LoadOtp_Onewire.Location = new System.Drawing.Point(6, 598);
+            this.btn_LoadOtp_Onewire.Name = "btn_LoadOtp_Onewire";
+            this.btn_LoadOtp_Onewire.Size = new System.Drawing.Size(67, 23);
+            this.btn_LoadOtp_Onewire.TabIndex = 74;
+            this.btn_LoadOtp_Onewire.Text = "Load Data";
+            this.btn_LoadOtp_Onewire.UseVisualStyleBackColor = true;
+            this.btn_LoadOtp_Onewire.Click += new System.EventHandler(this.btn_LoadOtp_Onewire_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::OWCI.Properties.Resources.otp2;
+            this.pictureBox2.Location = new System.Drawing.Point(6, 19);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(196, 573);
+            this.pictureBox2.TabIndex = 99;
+            this.pictureBox2.TabStop = false;
             // 
             // groupBox4
             // 
@@ -1618,7 +1664,7 @@
             this.groupBox4.Controls.Add(this.btn_I2CRead_DGV_Onewire);
             this.groupBox4.Controls.Add(this.txt_reg_data_ows1);
             this.groupBox4.Controls.Add(this.btn_I2CRead_Single_Onewire1);
-            this.groupBox4.Location = new System.Drawing.Point(61, 556);
+            this.groupBox4.Location = new System.Drawing.Point(61, 523);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(510, 207);
             this.groupBox4.TabIndex = 98;
@@ -1627,9 +1673,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(61, 66);
+            this.button1.Location = new System.Drawing.Point(61, 52);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(999, 8);
+            this.button1.Size = new System.Drawing.Size(1051, 8);
             this.button1.TabIndex = 100;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -1637,67 +1683,48 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Broadway", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(193, 23);
+            this.label14.Font = new System.Drawing.Font("Elephant", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(193, 8);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(781, 32);
+            this.label14.Size = new System.Drawing.Size(806, 38);
             this.label14.TabIndex = 101;
             this.label14.Text = "OWCI Control GUI, Designed for MEMS Microphone";
-            // 
-            // btn_LoadOtp_Onewire
-            // 
-            this.btn_LoadOtp_Onewire.Location = new System.Drawing.Point(6, 598);
-            this.btn_LoadOtp_Onewire.Name = "btn_LoadOtp_Onewire";
-            this.btn_LoadOtp_Onewire.Size = new System.Drawing.Size(84, 23);
-            this.btn_LoadOtp_Onewire.TabIndex = 74;
-            this.btn_LoadOtp_Onewire.Text = "Load OTP";
-            this.btn_LoadOtp_Onewire.UseVisualStyleBackColor = true;
-            this.btn_LoadOtp_Onewire.Click += new System.EventHandler(this.btn_LoadOtp_Onewire_Click);
-            // 
-            // btn_SaveOtp_Onewire
-            // 
-            this.btn_SaveOtp_Onewire.Location = new System.Drawing.Point(118, 598);
-            this.btn_SaveOtp_Onewire.Name = "btn_SaveOtp_Onewire";
-            this.btn_SaveOtp_Onewire.Size = new System.Drawing.Size(84, 23);
-            this.btn_SaveOtp_Onewire.TabIndex = 74;
-            this.btn_SaveOtp_Onewire.Text = "Save OTP";
-            this.btn_SaveOtp_Onewire.UseVisualStyleBackColor = true;
-            this.btn_SaveOtp_Onewire.Click += new System.EventHandler(this.btn_SaveOtp_Onewire_Click);
-            // 
-            // btn_BlowOtp_Onewire
-            // 
-            this.btn_BlowOtp_Onewire.Location = new System.Drawing.Point(6, 627);
-            this.btn_BlowOtp_Onewire.Name = "btn_BlowOtp_Onewire";
-            this.btn_BlowOtp_Onewire.Size = new System.Drawing.Size(196, 23);
-            this.btn_BlowOtp_Onewire.TabIndex = 74;
-            this.btn_BlowOtp_Onewire.Text = "Blow OTP";
-            this.btn_BlowOtp_Onewire.UseVisualStyleBackColor = true;
-            this.btn_BlowOtp_Onewire.Click += new System.EventHandler(this.btn_BlowOtp_Onewire_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::OWCI.Properties.Resources._20140120142753_66772;
-            this.pictureBox1.Location = new System.Drawing.Point(61, 16);
+            this.pictureBox1.Location = new System.Drawing.Point(61, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(98, 50);
             this.pictureBox1.TabIndex = 99;
             this.pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // button2
             // 
-            this.pictureBox2.Image = global::OWCI.Properties.Resources.otp2;
-            this.pictureBox2.Location = new System.Drawing.Point(6, 19);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(196, 573);
-            this.pictureBox2.TabIndex = 99;
-            this.pictureBox2.TabStop = false;
+            this.button2.Location = new System.Drawing.Point(79, 627);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(67, 23);
+            this.button2.TabIndex = 74;
+            this.button2.Text = "Write OTP";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btn_BlowOtp_Onewire_Click);
+            // 
+            // btn_ReadOtp_Onewire
+            // 
+            this.btn_ReadOtp_Onewire.Location = new System.Drawing.Point(79, 598);
+            this.btn_ReadOtp_Onewire.Name = "btn_ReadOtp_Onewire";
+            this.btn_ReadOtp_Onewire.Size = new System.Drawing.Size(67, 23);
+            this.btn_ReadOtp_Onewire.TabIndex = 74;
+            this.btn_ReadOtp_Onewire.Text = "Read OTP";
+            this.btn_ReadOtp_Onewire.UseVisualStyleBackColor = true;
+            this.btn_ReadOtp_Onewire.Click += new System.EventHandler(this.btn_ReadOtp_Onewire_Click);
             // 
             // OWCIWinDLG
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1123, 792);
+            this.ClientSize = new System.Drawing.Size(1162, 760);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
@@ -1741,10 +1768,10 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1882,6 +1909,8 @@
         private System.Windows.Forms.Button btn_SaveOtp_Onewire;
         private System.Windows.Forms.Button btn_BlowOtp_Onewire;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_ReadOtp_Onewire;
     }
 }
 
