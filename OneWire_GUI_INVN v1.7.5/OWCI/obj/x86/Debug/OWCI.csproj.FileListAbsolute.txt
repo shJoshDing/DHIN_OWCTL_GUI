@@ -1,0 +1,79 @@
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\bin\Debug\OWCI.exe
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\bin\Debug\OWCI.pdb
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\bin\Debug\DMY2.dll
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\bin\Debug\DMY2.pdb
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\ResGen.read.1.tlog
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\ResGen.write.1.tlog
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\OWCI.exe
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\bin\Debug\OWCI.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\bin\Debug\OWCI.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\bin\Debug\DMY2.dll
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\bin\Debug\DMY2.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.csprojResolveAssemblyReference.cache
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.csproj.GenerateResource.Cache
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.exe
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\bin\Debug\OWCI.exe
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\bin\Debug\OWCI.pdb
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\bin\Debug\DMY2.dll
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\bin\Debug\DMY2.pdb
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\jmo\Desktop\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\bin\Debug\OWCI.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\bin\Debug\OWCI.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\bin\Debug\DMY2.dll
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\bin\Debug\DMY2.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.csprojResolveAssemblyReference.cache
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v3\OWCI\obj\x86\Debug\OWCI.csproj.GenerateResource.Cache
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\obj\x86\Debug\OWCI.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\bin\Debug\OWCI.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\bin\Debug\OWCI.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\bin\Debug\DMY2.dll
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\bin\Debug\DMY2.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\obj\x86\Debug\OWCI.csprojResolveAssemblyReference.cache
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.6.2\OWCI\obj\x86\Debug\OWCI.csproj.GenerateResource.Cache
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.exe
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\OWCI.exe
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\OWCI.pdb
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\DMY2.dll
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\DMY2.pdb
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.csprojResolveAssemblyReference.cache
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\Users\IBM-201\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.csproj.GenerateResource.Cache
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.exe
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\OWCI.exe
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\OWCI.pdb
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\DMY2.dll
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\bin\Debug\DMY2.pdb
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.csprojResolveAssemblyReference.cache
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.csproj.GenerateResource.Cache

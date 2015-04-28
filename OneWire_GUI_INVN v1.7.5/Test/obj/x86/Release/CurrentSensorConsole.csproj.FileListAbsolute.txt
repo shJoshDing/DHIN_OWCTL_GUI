@@ -1,0 +1,71 @@
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\bin\Release\CurrentSensorConsole.exe
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\bin\Release\CurrentSensorConsole.pdb
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\bin\Release\DMY2.dll
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\bin\Release\DMY2.pdb
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\ResolveAssemblyReference.cache
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\Test.CurrentSensorConsole.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\Test.FormList.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\Test.PaintPanal.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\CurrentSensor.Properties.Resources.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\Test.TestGUI.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\Test.TestPaintWav.resources
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\ResGen.read.1.tlog
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\ResGen.write.1.tlog
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\CurrentSensorConsole.exe
+C:\My Disk D\Project_Mo\SVN_SDC\MPH\OneWireMPH\OneWire_GUI_CurrentSensor_v3\Test\obj\x86\Release\CurrentSensorConsole.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.exe
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.dll
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csprojResolveAssemblyReference.cache
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.CurrentSensorConsole.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.FormList.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.PaintPanal.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensor.Properties.Resources.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestGUI.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestPaintWav.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csproj.GenerateResource.Cache
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.exe
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.pdb
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.exe
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.pdb
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.dll
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.pdb
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csprojResolveAssemblyReference.cache
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.CurrentSensorConsole.resources
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.FormList.resources
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.PaintPanal.resources
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensor.Properties.Resources.resources
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestGUI.resources
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestPaintWav.resources
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csproj.GenerateResource.Cache
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.exe
+C:\Users\Josh-home\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.exe
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.dll
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.pdb
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csprojResolveAssemblyReference.cache
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.CurrentSensorConsole.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.FormList.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.PaintPanal.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensor.Properties.Resources.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestGUI.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestPaintWav.resources
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csproj.GenerateResource.Cache
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.exe
+F:\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\CurrentSensorConsole.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.dll
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\bin\Release\DMY2.pdb
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csprojResolveAssemblyReference.cache
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.CurrentSensorConsole.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.FormList.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.PaintPanal.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensor.Properties.Resources.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestGUI.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\Test.TestPaintWav.resources
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.csproj.GenerateResource.Cache
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.exe
+C:\Users\Mage\Desktop\One Wire\OneWire_GUI_INVN v1.7.5\OneWire_GUI_INVN v3\Test\obj\x86\Release\CurrentSensorConsole.pdb
