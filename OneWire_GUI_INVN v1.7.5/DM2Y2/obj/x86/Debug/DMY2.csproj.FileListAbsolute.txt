@@ -38,3 +38,9 @@ C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\DM2Y2\obj\x86\Debug\ADI.DMY
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\DM2Y2\obj\x86\Debug\DMY2.csproj.GenerateResource.Cache
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\DM2Y2\obj\x86\Debug\DMY2.dll
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\DM2Y2\obj\x86\Debug\DMY2.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\bin\Debug\DMY2.dll
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\bin\Debug\DMY2.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\ADI.DMY2.Properties.Resources.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\DMY2.csproj.GenerateResource.Cache
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\DMY2.dll
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\DMY2.pdb

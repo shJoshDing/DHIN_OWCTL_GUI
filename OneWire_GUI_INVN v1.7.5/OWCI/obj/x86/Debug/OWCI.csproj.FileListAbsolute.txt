@@ -77,3 +77,14 @@ C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.Pro
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.RegTable.resources
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\OWCI\obj\x86\Debug\OWCI.csproj.GenerateResource.Cache
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\obj\x86\Debug\OWCI.exe
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\obj\x86\Debug\OWCI.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\bin\Debug\OWCI.exe
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\bin\Debug\OWCI.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\bin\Debug\DMY2.dll
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\bin\Debug\DMY2.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\obj\x86\Debug\OWCI.csprojResolveAssemblyReference.cache
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\obj\x86\Debug\OWCI.Properties.Resources.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\obj\x86\Debug\OWCI.OWCIWinDLG.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\obj\x86\Debug\OWCI.RegTable.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\OWCI\obj\x86\Debug\OWCI.csproj.GenerateResource.Cache

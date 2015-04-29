@@ -491,11 +491,13 @@ namespace OWCI
                         if (cmdDetail.Length > 1)
                         {
                             uint paramCount;
-                            tempParam = cmdDetail[1].Split(",;".ToCharArray());
+                            //tempParam = cmdDetail[1].Split(",;".ToCharArray());
+                            tempParam = cmdAndParaStr.Split(":;".ToCharArray());
                             if (tempParam.Length >= 3)  //At least 3 params
                             {
                                 /* 1.Get the write count firstly */
-                                tempMsg = tempParam[1].Trim().ToUpper();
+                                //tempMsg = tempParam[1].Trim().ToUpper();
+                                tempMsg = tempParam[2].Trim().ToUpper();
                                 tempMsg = tempMsg.Substring(tempMsg.LastIndexOf('X') + 1, tempMsg.Length - tempMsg.LastIndexOf('X') - 1);
                                 if (tempMsg.Length <= 2)
                                 {
@@ -508,7 +510,7 @@ namespace OWCI
                                 param = new string[paramCount + 2];
 
                                 /* 3. Fill in params */
-                                tempMsg = tempParam[0].Trim().ToUpper();
+                                tempMsg = tempParam[1].Trim().ToUpper();
                                 tempMsg = tempMsg.Substring(tempMsg.LastIndexOf('X') + 1, tempMsg.Length - tempMsg.LastIndexOf('X') - 1);
                                 if (tempMsg.Length <= 2)
                                 {
@@ -519,13 +521,15 @@ namespace OWCI
 
                                 param[1] = paramCount.ToString("X2");
 
-                                tempMsg = tempParam[2].ToUpper().Substring(tempParam[2].ToUpper().IndexOf('X') - 1);
-                                tempParam = tempMsg.Split(' ');
-                                if (tempParam.Length >= paramCount)
-                                {
+                                //tempMsg = tempParam[3].ToUpper().Substring(tempParam[3].ToUpper().IndexOf('X') - 1);
+                                //tempParam = tempMsg.Split(' ');
+                                //if (tempParam.Length >= paramCount)
+                                //{
                                     for (int i = 0; i < paramCount; i++)
                                     {
-                                        tempMsg = tempParam[i].TrimStart("0X".ToCharArray());
+                                        //tempMsg = tempParam[3+i].TrimStart("0X".ToCharArray());
+                                        tempMsg = tempParam[3 + i].Trim().ToUpper();
+                                        tempMsg = tempMsg.Substring(tempMsg.LastIndexOf('X') + 1, tempMsg.Length - tempMsg.LastIndexOf('X') - 1);
                                         if (tempMsg.Length <= 2)
                                         {
                                             param[2 + i] = uint.Parse(tempMsg, System.Globalization.NumberStyles.HexNumber).ToString("X2");
@@ -533,7 +537,7 @@ namespace OWCI
                                         else
                                             throw new Exception("Invaild parameters");
                                     }
-                                }
+                                //}
                                 ret = SCRIPT_COMMAND.BWr;           /* the only way get vaild command and parameters */
                             }
                             else
@@ -558,14 +562,15 @@ namespace OWCI
                         if (cmdDetail.Length > 1)
                         {
                             param = new string[2];
-                            tempParam = cmdDetail[1].Split(",;".ToCharArray());
-                            if (tempParam.Length >= 2)
+                            tempParam = cmdAndParaStr.Split(":;".ToCharArray());
+                            //tempParam = cmdDetail[1].Split(",;".ToCharArray());
+                            if (tempParam.Length >= 3)
                             {
                                 for (int i = 0; i < 2; i++)
                                 {
-                                    tempMsg = tempParam[i].Trim().ToUpper();
+                                    tempMsg = tempParam[i+1].Trim().ToUpper();
                                     tempMsg = tempMsg.Substring(tempMsg.LastIndexOf('X') + 1, tempMsg.Length - tempMsg.LastIndexOf('X') - 1);
-                                    if (tempMsg.Length <= 2)
+                                    if (tempMsg.Length <= 3)
                                     {
                                         param[i] = uint.Parse(tempMsg, System.Globalization.NumberStyles.HexNumber).ToString("X2");
                                     }
@@ -1178,6 +1183,14 @@ namespace OWCI
                                     data[j] = uint.Parse(parameters[2 + j], NumberStyles.HexNumber);
                                 opResult = oneWrie_device.I2CWrite_Burst(dev_addr, uint.Parse(parameters[0], NumberStyles.HexNumber), data, uint.Parse(parameters[1], NumberStyles.HexNumber));
                                 ScriptResult(AllCommands[i], opResult);
+                                if (opResult)
+                                {
+                                    //opMsg = "";
+                                    //for( int k =0; k< data.Length ; k++)
+                                    //{
+                                    //    opMsg += parameters[0] + "";
+                                    //}
+                                }
 
                                 break;
                                 
@@ -1194,6 +1207,7 @@ namespace OWCI
                                         if (j % 10 == 0)
                                             opMsg += "\r\n";
                                     }
+                                    DisplayOperateMes(opMsg);
                                 }
 
                                 break;
@@ -1295,7 +1309,7 @@ namespace OWCI
 
                 StreamWriter sw = File.CreateText(filename);
                 /* First line for description */
-                sw.WriteLine(String.Format("/* Script for DSM measurement of MDO???, CopyRight of InvenSense Inc. -- Saved time:{0} */",DateTime.Now.ToString()));
+                //sw.WriteLine(String.Format("/* Script for DSM measurement of MDO???, CopyRight of InvenSense Inc. -- Saved time:{0} */",DateTime.Now.ToString()));
                 /* script Data */
                 sw.Write(this.txt_ScriptWin.Text);
 
@@ -1313,7 +1327,7 @@ namespace OWCI
             {
                 OpenFileDialog openfiledlg = new OpenFileDialog();
                 openfiledlg.Title = "Please choose the OTP data file to be loaded...";
-                openfiledlg.Filter = "OTP file(*.otp)|*.otp";
+                openfiledlg.Filter = "OTP file(*.txt)|*.txt";
                 openfiledlg.RestoreDirectory = true;
                 string filename = "";
                 if (openfiledlg.ShowDialog() == DialogResult.OK)
@@ -1326,6 +1340,8 @@ namespace OWCI
                 StreamReader sr = new StreamReader(filename);
                 /* First line for description */
                 string comment = sr.ReadLine();
+                txt_PartNum.Text = comment;
+
                 string msg;
                 uint ix = 0;
 
@@ -1357,7 +1373,7 @@ namespace OWCI
             {
                 SaveFileDialog savefiledlg = new SaveFileDialog();
                 savefiledlg.Title = "Export OTP Data...";
-                savefiledlg.Filter = "OTP file(*.otp)|*.otp";
+                savefiledlg.Filter = "OTP file(*.txt)|*.txt";
                 savefiledlg.RestoreDirectory = true;
                 string filename = "";
                 if (savefiledlg.ShowDialog() == DialogResult.OK)
@@ -1369,7 +1385,7 @@ namespace OWCI
 
                 StreamWriter sw = File.CreateText(filename);
                 /* First line for description */
-                sw.WriteLine(String.Format("/* OTP setting for {0}, CopyRight of InvenSense Inc. -- {1} */",this.txt_PartNum.Text,DateTime.Now.ToString()));
+                sw.WriteLine(String.Format("{0}",this.txt_PartNum.Text));
                 /* OTP Data */
                 for(int i = 0; i < RegTabList_Cur.Count; i++)
                 {

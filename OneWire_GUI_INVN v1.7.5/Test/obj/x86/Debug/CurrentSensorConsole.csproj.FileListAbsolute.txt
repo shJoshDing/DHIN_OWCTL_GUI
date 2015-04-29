@@ -84,3 +84,17 @@ C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\Test\obj\x86\Debug\Test.Tes
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\Test\obj\x86\Debug\CurrentSensorConsole.csproj.GenerateResource.Cache
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\Test\obj\x86\Debug\CurrentSensorConsole.exe
 C:\Users\Josh-home\Desktop\OneWire_GUI_INVN v1.7.6.3\Test\obj\x86\Debug\CurrentSensorConsole.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\bin\Debug\CurrentSensorConsole.exe
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\bin\Debug\CurrentSensorConsole.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\bin\Debug\DMY2.dll
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\bin\Debug\DMY2.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\CurrentSensorConsole.csprojResolveAssemblyReference.cache
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\Test.CurrentSensorConsole.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\Test.FormList.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\Test.PaintPanal.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\CurrentSensor.Properties.Resources.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\Test.TestGUI.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\Test.TestPaintWav.resources
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\CurrentSensorConsole.csproj.GenerateResource.Cache
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\CurrentSensorConsole.exe
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\Test\obj\x86\Debug\CurrentSensorConsole.pdb

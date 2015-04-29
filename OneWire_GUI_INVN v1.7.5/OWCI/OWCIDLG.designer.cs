@@ -1715,9 +1715,9 @@
             this.txt_PartNum.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_PartNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_PartNum.ForeColor = System.Drawing.Color.White;
-            this.txt_PartNum.Location = new System.Drawing.Point(51, 599);
+            this.txt_PartNum.Location = new System.Drawing.Point(56, 599);
             this.txt_PartNum.Name = "txt_PartNum";
-            this.txt_PartNum.Size = new System.Drawing.Size(185, 20);
+            this.txt_PartNum.Size = new System.Drawing.Size(218, 20);
             this.txt_PartNum.TabIndex = 92;
             this.txt_PartNum.Text = "ICS - 41350";
             this.txt_PartNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1727,9 +1727,9 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(6, 603);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 13);
+            this.label15.Size = new System.Drawing.Size(54, 13);
             this.label15.TabIndex = 93;
-            this.label15.Text = "Part - ";
+            this.label15.Text = "File Name";
             // 
             // panelRegTable
             // 
@@ -1742,7 +1742,7 @@
             // btn_ReadOtp_Onewire
             // 
             this.btn_ReadOtp_Onewire.AutoSize = true;
-            this.btn_ReadOtp_Onewire.Location = new System.Drawing.Point(131, 627);
+            this.btn_ReadOtp_Onewire.Location = new System.Drawing.Point(151, 627);
             this.btn_ReadOtp_Onewire.Name = "btn_ReadOtp_Onewire";
             this.btn_ReadOtp_Onewire.Size = new System.Drawing.Size(45, 25);
             this.btn_ReadOtp_Onewire.TabIndex = 74;
@@ -1752,7 +1752,7 @@
             // 
             // btn_WriteOtp_Onewi
             // 
-            this.btn_WriteOtp_Onewi.Location = new System.Drawing.Point(192, 626);
+            this.btn_WriteOtp_Onewi.Location = new System.Drawing.Point(218, 627);
             this.btn_WriteOtp_Onewi.Name = "btn_WriteOtp_Onewi";
             this.btn_WriteOtp_Onewi.Size = new System.Drawing.Size(45, 24);
             this.btn_WriteOtp_Onewi.TabIndex = 74;
@@ -1765,7 +1765,7 @@
             this.btn_BlowOtp_Onewire.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_BlowOtp_Onewire.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_BlowOtp_Onewire.ForeColor = System.Drawing.Color.Red;
-            this.btn_BlowOtp_Onewire.Location = new System.Drawing.Point(261, 598);
+            this.btn_BlowOtp_Onewire.Location = new System.Drawing.Point(280, 598);
             this.btn_BlowOtp_Onewire.Name = "btn_BlowOtp_Onewire";
             this.btn_BlowOtp_Onewire.Size = new System.Drawing.Size(57, 52);
             this.btn_BlowOtp_Onewire.TabIndex = 74;
@@ -1775,7 +1775,7 @@
             // 
             // btn_SaveOtp_Onewire
             // 
-            this.btn_SaveOtp_Onewire.Location = new System.Drawing.Point(9, 627);
+            this.btn_SaveOtp_Onewire.Location = new System.Drawing.Point(17, 627);
             this.btn_SaveOtp_Onewire.Name = "btn_SaveOtp_Onewire";
             this.btn_SaveOtp_Onewire.Size = new System.Drawing.Size(45, 24);
             this.btn_SaveOtp_Onewire.TabIndex = 74;
@@ -1785,7 +1785,7 @@
             // 
             // btn_LoadOtp_Onewire
             // 
-            this.btn_LoadOtp_Onewire.Location = new System.Drawing.Point(70, 627);
+            this.btn_LoadOtp_Onewire.Location = new System.Drawing.Point(84, 627);
             this.btn_LoadOtp_Onewire.Name = "btn_LoadOtp_Onewire";
             this.btn_LoadOtp_Onewire.Size = new System.Drawing.Size(45, 24);
             this.btn_LoadOtp_Onewire.TabIndex = 74;
@@ -1897,7 +1897,7 @@
             this.Controls.Add(this.groupBox4);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "OWCIWinDLG";
-            this.Text = "One Wire Control Interface v1.7.6.3 Copyright@InvenSense Inc";
+            this.Text = "One Wire Control Interface v1.7.6.4 Copyright@InvenSense Inc";
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
             this.grb_SingleI2CRW_OW.ResumeLayout(false);
