@@ -1044,8 +1044,14 @@ namespace OWCI
 
                 Console.WriteLine("Set pilot width result->{0}", oneWrie_device.SetPilotWidth((uint)this.numUD_pilotwidth_ow.Value * 1000));
 
-                uint _reg_addr = 0xAA;
-                uint _reg_data = 0x5A;
+                temp = this.txt_reg_addr_testkey.Text.TrimStart("0x".ToCharArray()).TrimEnd("H".ToCharArray());
+                uint _reg_addr = UInt32.Parse((temp == "" ? "0" : temp), System.Globalization.NumberStyles.HexNumber);
+
+                temp = this.txt_reg_data_testkey.Text.TrimStart("0x".ToCharArray()).TrimEnd("H".ToCharArray());
+                uint _reg_data = UInt32.Parse((temp == "" ? "0" : temp), System.Globalization.NumberStyles.HexNumber);
+
+                //_reg_addr = uint.Parse(txt_reg_addr_testkey.Text);
+                //uint _reg_data = uint.Parse(txt_reg_data_testkey.Text);
                 Console.WriteLine("{0}<--{1} : I2C write single result->{2}", _reg_addr.ToString("X2"), _reg_data.ToString("X2"), oneWrie_device.I2CWrite_Single(_dev_addr, _reg_addr, _reg_data));
 
                 Thread.Sleep(u32OWCIDelay);
@@ -1437,7 +1443,7 @@ namespace OWCI
 
         private void btn_I2CWrite_Single_Onewire7_Click_1(object sender, EventArgs e)
         {
-
+            I2CWrite_Single_OneWire(this.txt_reg_addr_ows7, this.txt_reg_data_ows7);
         }
 
         private void btn_I2CRead_Single_Onewire8_Click_1(object sender, EventArgs e)
@@ -1447,7 +1453,7 @@ namespace OWCI
 
         private void btn_I2CWrite_Single_Onewire8_Click_1(object sender, EventArgs e)
         {
-
+            I2CWrite_Single_OneWire(this.txt_reg_addr_ows8, this.txt_reg_data_ows8);
         }
         private void btn_I2CRead_Single_Onewire9_Click_1(object sender, EventArgs e)
         {
@@ -1456,7 +1462,7 @@ namespace OWCI
 
         private void btn_I2CWrite_Single_Onewire9_Click_1(object sender, EventArgs e)
         {
-
+            I2CWrite_Single_OneWire(this.txt_reg_addr_ows9, this.txt_reg_data_ows9);
         }
 
         private void btn_I2CRead_Single_Onewire10_Click_1(object sender, EventArgs e)
@@ -1467,7 +1473,7 @@ namespace OWCI
 
         private void btn_I2CWrite_Single_Onewire10_Click_1(object sender, EventArgs e)
         {
-
+            I2CWrite_Single_OneWire(this.txt_reg_addr_ows10, this.txt_reg_data_ows10);
         }
 
         private void btn_I2CRead_Single_Onewire11_Click_1(object sender, EventArgs e)
@@ -1477,7 +1483,7 @@ namespace OWCI
 
         private void btn_I2CWrite_Single_Onewire11_Click_1(object sender, EventArgs e)
         {
-
+            I2CWrite_Single_OneWire(this.txt_reg_addr_ows11, this.txt_reg_data_ows11);
         }
 
         private void btn_I2CRead_Single_Onewire12_Click_1(object sender, EventArgs e)
@@ -1487,7 +1493,7 @@ namespace OWCI
 
         private void btn_I2CWrite_Single_Onewire12_Click_1(object sender, EventArgs e)
         {
-
+            I2CWrite_Single_OneWire(this.txt_reg_addr_ows12, this.txt_reg_data_ows12);
         }
 
         private void btn_WriteOtp_Onewire_Click(object sender, EventArgs e)

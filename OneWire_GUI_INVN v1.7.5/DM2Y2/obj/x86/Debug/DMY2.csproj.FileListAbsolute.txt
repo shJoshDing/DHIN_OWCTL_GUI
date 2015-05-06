@@ -44,3 +44,4 @@ C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\o
 C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\DMY2.csproj.GenerateResource.Cache
 C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\DMY2.dll
 C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\DMY2.pdb
+C:\Users\IBM-201\Documents\GitHub\DHIN_OWCTL_GUI\OneWire_GUI_INVN v1.7.5\DM2Y2\obj\x86\Debug\DMY2.csprojResolveAssemblyReference.cache

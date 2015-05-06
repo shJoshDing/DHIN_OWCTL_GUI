@@ -1135,7 +1135,7 @@
             this.numUD_pilotwidth_ow.TabIndex = 47;
             this.numUD_pilotwidth_ow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.numUD_pilotwidth_ow.Value = new decimal(new int[] {
-            100,
+            40,
             0,
             0,
             0});
@@ -1159,7 +1159,7 @@
             this.txt_dev_addr_onewire.Name = "txt_dev_addr_onewire";
             this.txt_dev_addr_onewire.Size = new System.Drawing.Size(56, 20);
             this.txt_dev_addr_onewire.TabIndex = 45;
-            this.txt_dev_addr_onewire.Text = "0x28";
+            this.txt_dev_addr_onewire.Text = "0x53";
             this.txt_dev_addr_onewire.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbl_devAddr_onewire
@@ -1897,7 +1897,7 @@
             this.Controls.Add(this.groupBox4);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "OWCIWinDLG";
-            this.Text = "One Wire Control Interface v1.7.6.4 Copyright@InvenSense Inc";
+            this.Text = "One Wire Control Interface v1.7.6.5 Copyright@InvenSense Inc";
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
             this.grb_SingleI2CRW_OW.ResumeLayout(false);
@@ -1967,7 +1967,6 @@
         private System.Windows.Forms.TextBox txt_reg_data_ows7;
         private System.Windows.Forms.Button btn_I2CWrite_Single_Onewire6;
         private System.Windows.Forms.Button btn_I2CRead_Single_Onewire6;
-        private System.Windows.Forms.TextBox txt_reg_addr_ows6;
         private System.Windows.Forms.TextBox txt_reg_data_ows6;
         private System.Windows.Forms.Button btn_I2CWrite_Single_Onewire5;
         private System.Windows.Forms.Button btn_I2CRead_Single_Onewire5;
@@ -2082,6 +2081,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_Paste;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_Clear;
+        private System.Windows.Forms.TextBox txt_reg_addr_ows6;
     }
 }
 
