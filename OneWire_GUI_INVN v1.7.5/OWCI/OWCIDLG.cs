@@ -1500,6 +1500,11 @@ namespace OWCI
         {
             I2CWrite_OTP_OneWire(this.RegTabList_Cur);
         }
+
+        private void OWCIWinDLG_Load(object sender, EventArgs e)
+        {
+
+        }
        
 
     }

@@ -206,7 +206,7 @@
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel_Connection,
             this.toolStripStatusLabel_FWInfo});
-            this.statusStrip.Location = new System.Drawing.Point(0, 739);
+            this.statusStrip.Location = new System.Drawing.Point(0, 701);
             this.statusStrip.Name = "statusStrip";
             this.statusStrip.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.statusStrip.Size = new System.Drawing.Size(1249, 22);
@@ -266,14 +266,14 @@
             this.grb_SingleI2CRW_OW.Controls.Add(this.lbl_reg_addr_single_onewire);
             this.grb_SingleI2CRW_OW.Location = new System.Drawing.Point(207, 147);
             this.grb_SingleI2CRW_OW.Name = "grb_SingleI2CRW_OW";
-            this.grb_SingleI2CRW_OW.Size = new System.Drawing.Size(314, 283);
+            this.grb_SingleI2CRW_OW.Size = new System.Drawing.Size(314, 273);
             this.grb_SingleI2CRW_OW.TabIndex = 78;
             this.grb_SingleI2CRW_OW.TabStop = false;
             this.grb_SingleI2CRW_OW.Text = "Registers R/W";
             // 
             // btn_I2CWrite_Single_Onewire12
             // 
-            this.btn_I2CWrite_Single_Onewire12.Location = new System.Drawing.Point(239, 248);
+            this.btn_I2CWrite_Single_Onewire12.Location = new System.Drawing.Point(239, 242);
             this.btn_I2CWrite_Single_Onewire12.Name = "btn_I2CWrite_Single_Onewire12";
             this.btn_I2CWrite_Single_Onewire12.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire12.TabIndex = 93;
@@ -283,7 +283,7 @@
             // 
             // btn_I2CRead_Single_Onewire12
             // 
-            this.btn_I2CRead_Single_Onewire12.Location = new System.Drawing.Point(164, 248);
+            this.btn_I2CRead_Single_Onewire12.Location = new System.Drawing.Point(164, 242);
             this.btn_I2CRead_Single_Onewire12.Name = "btn_I2CRead_Single_Onewire12";
             this.btn_I2CRead_Single_Onewire12.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire12.TabIndex = 92;
@@ -296,7 +296,7 @@
             this.txt_reg_addr_ows12.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows12.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows12.Location = new System.Drawing.Point(14, 249);
+            this.txt_reg_addr_ows12.Location = new System.Drawing.Point(14, 243);
             this.txt_reg_addr_ows12.Name = "txt_reg_addr_ows12";
             this.txt_reg_addr_ows12.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows12.TabIndex = 90;
@@ -308,7 +308,7 @@
             this.txt_reg_data_ows12.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows12.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows12.Location = new System.Drawing.Point(89, 249);
+            this.txt_reg_data_ows12.Location = new System.Drawing.Point(89, 243);
             this.txt_reg_data_ows12.Name = "txt_reg_data_ows12";
             this.txt_reg_data_ows12.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows12.TabIndex = 91;
@@ -317,7 +317,7 @@
             // 
             // btn_I2CWrite_Single_Onewire11
             // 
-            this.btn_I2CWrite_Single_Onewire11.Location = new System.Drawing.Point(239, 218);
+            this.btn_I2CWrite_Single_Onewire11.Location = new System.Drawing.Point(239, 212);
             this.btn_I2CWrite_Single_Onewire11.Name = "btn_I2CWrite_Single_Onewire11";
             this.btn_I2CWrite_Single_Onewire11.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire11.TabIndex = 89;
@@ -327,7 +327,7 @@
             // 
             // btn_I2CRead_Single_Onewire11
             // 
-            this.btn_I2CRead_Single_Onewire11.Location = new System.Drawing.Point(164, 218);
+            this.btn_I2CRead_Single_Onewire11.Location = new System.Drawing.Point(164, 212);
             this.btn_I2CRead_Single_Onewire11.Name = "btn_I2CRead_Single_Onewire11";
             this.btn_I2CRead_Single_Onewire11.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire11.TabIndex = 88;
@@ -340,7 +340,7 @@
             this.txt_reg_addr_ows11.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows11.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows11.Location = new System.Drawing.Point(14, 219);
+            this.txt_reg_addr_ows11.Location = new System.Drawing.Point(14, 213);
             this.txt_reg_addr_ows11.Name = "txt_reg_addr_ows11";
             this.txt_reg_addr_ows11.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows11.TabIndex = 86;
@@ -352,7 +352,7 @@
             this.txt_reg_data_ows11.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows11.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows11.Location = new System.Drawing.Point(89, 219);
+            this.txt_reg_data_ows11.Location = new System.Drawing.Point(89, 213);
             this.txt_reg_data_ows11.Name = "txt_reg_data_ows11";
             this.txt_reg_data_ows11.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows11.TabIndex = 87;
@@ -361,7 +361,7 @@
             // 
             // btn_I2CWrite_Single_Onewire10
             // 
-            this.btn_I2CWrite_Single_Onewire10.Location = new System.Drawing.Point(239, 189);
+            this.btn_I2CWrite_Single_Onewire10.Location = new System.Drawing.Point(239, 183);
             this.btn_I2CWrite_Single_Onewire10.Name = "btn_I2CWrite_Single_Onewire10";
             this.btn_I2CWrite_Single_Onewire10.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire10.TabIndex = 85;
@@ -371,7 +371,7 @@
             // 
             // btn_I2CRead_Single_Onewire10
             // 
-            this.btn_I2CRead_Single_Onewire10.Location = new System.Drawing.Point(164, 189);
+            this.btn_I2CRead_Single_Onewire10.Location = new System.Drawing.Point(164, 183);
             this.btn_I2CRead_Single_Onewire10.Name = "btn_I2CRead_Single_Onewire10";
             this.btn_I2CRead_Single_Onewire10.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire10.TabIndex = 84;
@@ -384,7 +384,7 @@
             this.txt_reg_addr_ows10.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows10.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows10.Location = new System.Drawing.Point(14, 189);
+            this.txt_reg_addr_ows10.Location = new System.Drawing.Point(14, 183);
             this.txt_reg_addr_ows10.Name = "txt_reg_addr_ows10";
             this.txt_reg_addr_ows10.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows10.TabIndex = 82;
@@ -396,7 +396,7 @@
             this.txt_reg_data_ows10.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows10.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows10.Location = new System.Drawing.Point(89, 189);
+            this.txt_reg_data_ows10.Location = new System.Drawing.Point(89, 183);
             this.txt_reg_data_ows10.Name = "txt_reg_data_ows10";
             this.txt_reg_data_ows10.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows10.TabIndex = 83;
@@ -405,7 +405,7 @@
             // 
             // btn_I2CWrite_Single_Onewire9
             // 
-            this.btn_I2CWrite_Single_Onewire9.Location = new System.Drawing.Point(239, 158);
+            this.btn_I2CWrite_Single_Onewire9.Location = new System.Drawing.Point(239, 152);
             this.btn_I2CWrite_Single_Onewire9.Name = "btn_I2CWrite_Single_Onewire9";
             this.btn_I2CWrite_Single_Onewire9.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire9.TabIndex = 81;
@@ -415,7 +415,7 @@
             // 
             // btn_I2CRead_Single_Onewire9
             // 
-            this.btn_I2CRead_Single_Onewire9.Location = new System.Drawing.Point(164, 158);
+            this.btn_I2CRead_Single_Onewire9.Location = new System.Drawing.Point(164, 152);
             this.btn_I2CRead_Single_Onewire9.Name = "btn_I2CRead_Single_Onewire9";
             this.btn_I2CRead_Single_Onewire9.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire9.TabIndex = 80;
@@ -428,7 +428,7 @@
             this.txt_reg_addr_ows9.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows9.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows9.Location = new System.Drawing.Point(14, 159);
+            this.txt_reg_addr_ows9.Location = new System.Drawing.Point(14, 153);
             this.txt_reg_addr_ows9.Name = "txt_reg_addr_ows9";
             this.txt_reg_addr_ows9.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows9.TabIndex = 78;
@@ -440,7 +440,7 @@
             this.txt_reg_data_ows9.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows9.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows9.Location = new System.Drawing.Point(89, 159);
+            this.txt_reg_data_ows9.Location = new System.Drawing.Point(89, 153);
             this.txt_reg_data_ows9.Name = "txt_reg_data_ows9";
             this.txt_reg_data_ows9.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows9.TabIndex = 79;
@@ -449,7 +449,7 @@
             // 
             // btn_I2CWrite_Single_Onewire8
             // 
-            this.btn_I2CWrite_Single_Onewire8.Location = new System.Drawing.Point(239, 128);
+            this.btn_I2CWrite_Single_Onewire8.Location = new System.Drawing.Point(239, 122);
             this.btn_I2CWrite_Single_Onewire8.Name = "btn_I2CWrite_Single_Onewire8";
             this.btn_I2CWrite_Single_Onewire8.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire8.TabIndex = 77;
@@ -459,7 +459,7 @@
             // 
             // btn_I2CRead_Single_Onewire8
             // 
-            this.btn_I2CRead_Single_Onewire8.Location = new System.Drawing.Point(164, 128);
+            this.btn_I2CRead_Single_Onewire8.Location = new System.Drawing.Point(164, 122);
             this.btn_I2CRead_Single_Onewire8.Name = "btn_I2CRead_Single_Onewire8";
             this.btn_I2CRead_Single_Onewire8.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire8.TabIndex = 76;
@@ -472,7 +472,7 @@
             this.txt_reg_addr_ows8.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows8.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows8.Location = new System.Drawing.Point(14, 129);
+            this.txt_reg_addr_ows8.Location = new System.Drawing.Point(14, 123);
             this.txt_reg_addr_ows8.Name = "txt_reg_addr_ows8";
             this.txt_reg_addr_ows8.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows8.TabIndex = 74;
@@ -484,7 +484,7 @@
             this.txt_reg_data_ows8.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows8.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows8.Location = new System.Drawing.Point(89, 129);
+            this.txt_reg_data_ows8.Location = new System.Drawing.Point(89, 123);
             this.txt_reg_data_ows8.Name = "txt_reg_data_ows8";
             this.txt_reg_data_ows8.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows8.TabIndex = 75;
@@ -493,7 +493,7 @@
             // 
             // btn_I2CWrite_Single_Onewire7
             // 
-            this.btn_I2CWrite_Single_Onewire7.Location = new System.Drawing.Point(239, 98);
+            this.btn_I2CWrite_Single_Onewire7.Location = new System.Drawing.Point(239, 92);
             this.btn_I2CWrite_Single_Onewire7.Name = "btn_I2CWrite_Single_Onewire7";
             this.btn_I2CWrite_Single_Onewire7.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire7.TabIndex = 73;
@@ -503,7 +503,7 @@
             // 
             // btn_I2CRead_Single_Onewire7
             // 
-            this.btn_I2CRead_Single_Onewire7.Location = new System.Drawing.Point(164, 98);
+            this.btn_I2CRead_Single_Onewire7.Location = new System.Drawing.Point(164, 92);
             this.btn_I2CRead_Single_Onewire7.Name = "btn_I2CRead_Single_Onewire7";
             this.btn_I2CRead_Single_Onewire7.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire7.TabIndex = 72;
@@ -516,7 +516,7 @@
             this.txt_reg_addr_ows7.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows7.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows7.Location = new System.Drawing.Point(14, 99);
+            this.txt_reg_addr_ows7.Location = new System.Drawing.Point(14, 93);
             this.txt_reg_addr_ows7.Name = "txt_reg_addr_ows7";
             this.txt_reg_addr_ows7.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows7.TabIndex = 70;
@@ -528,7 +528,7 @@
             this.txt_reg_data_ows7.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows7.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows7.Location = new System.Drawing.Point(89, 99);
+            this.txt_reg_data_ows7.Location = new System.Drawing.Point(89, 93);
             this.txt_reg_data_ows7.Name = "txt_reg_data_ows7";
             this.txt_reg_data_ows7.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows7.TabIndex = 71;
@@ -537,7 +537,7 @@
             // 
             // btn_I2CWrite_Single_Onewire6
             // 
-            this.btn_I2CWrite_Single_Onewire6.Location = new System.Drawing.Point(239, 68);
+            this.btn_I2CWrite_Single_Onewire6.Location = new System.Drawing.Point(239, 62);
             this.btn_I2CWrite_Single_Onewire6.Name = "btn_I2CWrite_Single_Onewire6";
             this.btn_I2CWrite_Single_Onewire6.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire6.TabIndex = 69;
@@ -547,7 +547,7 @@
             // 
             // btn_I2CRead_Single_Onewire6
             // 
-            this.btn_I2CRead_Single_Onewire6.Location = new System.Drawing.Point(164, 68);
+            this.btn_I2CRead_Single_Onewire6.Location = new System.Drawing.Point(164, 62);
             this.btn_I2CRead_Single_Onewire6.Name = "btn_I2CRead_Single_Onewire6";
             this.btn_I2CRead_Single_Onewire6.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire6.TabIndex = 68;
@@ -560,7 +560,7 @@
             this.txt_reg_addr_ows6.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows6.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows6.Location = new System.Drawing.Point(14, 69);
+            this.txt_reg_addr_ows6.Location = new System.Drawing.Point(14, 63);
             this.txt_reg_addr_ows6.Name = "txt_reg_addr_ows6";
             this.txt_reg_addr_ows6.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows6.TabIndex = 66;
@@ -572,7 +572,7 @@
             this.txt_reg_data_ows6.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows6.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows6.Location = new System.Drawing.Point(89, 69);
+            this.txt_reg_data_ows6.Location = new System.Drawing.Point(89, 63);
             this.txt_reg_data_ows6.Name = "txt_reg_data_ows6";
             this.txt_reg_data_ows6.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows6.TabIndex = 67;
@@ -581,7 +581,7 @@
             // 
             // btn_I2CWrite_Single_Onewire5
             // 
-            this.btn_I2CWrite_Single_Onewire5.Location = new System.Drawing.Point(239, 38);
+            this.btn_I2CWrite_Single_Onewire5.Location = new System.Drawing.Point(239, 32);
             this.btn_I2CWrite_Single_Onewire5.Name = "btn_I2CWrite_Single_Onewire5";
             this.btn_I2CWrite_Single_Onewire5.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Single_Onewire5.TabIndex = 65;
@@ -591,7 +591,7 @@
             // 
             // btn_I2CRead_Single_Onewire5
             // 
-            this.btn_I2CRead_Single_Onewire5.Location = new System.Drawing.Point(164, 38);
+            this.btn_I2CRead_Single_Onewire5.Location = new System.Drawing.Point(164, 32);
             this.btn_I2CRead_Single_Onewire5.Name = "btn_I2CRead_Single_Onewire5";
             this.btn_I2CRead_Single_Onewire5.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Single_Onewire5.TabIndex = 64;
@@ -604,7 +604,7 @@
             this.txt_reg_addr_ows5.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_ows5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_ows5.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_ows5.Location = new System.Drawing.Point(14, 39);
+            this.txt_reg_addr_ows5.Location = new System.Drawing.Point(14, 33);
             this.txt_reg_addr_ows5.Name = "txt_reg_addr_ows5";
             this.txt_reg_addr_ows5.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_ows5.TabIndex = 62;
@@ -616,7 +616,7 @@
             this.txt_reg_data_ows5.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_data_ows5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_data_ows5.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_data_ows5.Location = new System.Drawing.Point(89, 39);
+            this.txt_reg_data_ows5.Location = new System.Drawing.Point(89, 33);
             this.txt_reg_data_ows5.Name = "txt_reg_data_ows5";
             this.txt_reg_data_ows5.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_data_ows5.TabIndex = 63;
@@ -626,7 +626,7 @@
             // lbl_reg_data_single_onewire
             // 
             this.lbl_reg_data_single_onewire.AutoSize = true;
-            this.lbl_reg_data_single_onewire.Location = new System.Drawing.Point(88, 22);
+            this.lbl_reg_data_single_onewire.Location = new System.Drawing.Point(88, 16);
             this.lbl_reg_data_single_onewire.Name = "lbl_reg_data_single_onewire";
             this.lbl_reg_data_single_onewire.Size = new System.Drawing.Size(47, 13);
             this.lbl_reg_data_single_onewire.TabIndex = 49;
@@ -635,7 +635,7 @@
             // lbl_reg_addr_single_onewire
             // 
             this.lbl_reg_addr_single_onewire.AutoSize = true;
-            this.lbl_reg_addr_single_onewire.Location = new System.Drawing.Point(13, 22);
+            this.lbl_reg_addr_single_onewire.Location = new System.Drawing.Point(13, 16);
             this.lbl_reg_addr_single_onewire.Name = "lbl_reg_addr_single_onewire";
             this.lbl_reg_addr_single_onewire.Size = new System.Drawing.Size(46, 13);
             this.lbl_reg_addr_single_onewire.TabIndex = 46;
@@ -887,16 +887,16 @@
             this.grb_FuseMode_OW.Controls.Add(this.lbl_pulsewidth_ow);
             this.grb_FuseMode_OW.Controls.Add(this.label7);
             this.grb_FuseMode_OW.Controls.Add(this.label6);
-            this.grb_FuseMode_OW.Location = new System.Drawing.Point(11, 336);
+            this.grb_FuseMode_OW.Location = new System.Drawing.Point(11, 311);
             this.grb_FuseMode_OW.Name = "grb_FuseMode_OW";
-            this.grb_FuseMode_OW.Size = new System.Drawing.Size(168, 148);
+            this.grb_FuseMode_OW.Size = new System.Drawing.Size(168, 132);
             this.grb_FuseMode_OW.TabIndex = 80;
             this.grb_FuseMode_OW.TabStop = false;
             this.grb_FuseMode_OW.Text = "Fuse";
             // 
             // btn_fuse_action_ow
             // 
-            this.btn_fuse_action_ow.Location = new System.Drawing.Point(41, 111);
+            this.btn_fuse_action_ow.Location = new System.Drawing.Point(41, 104);
             this.btn_fuse_action_ow.Name = "btn_fuse_action_ow";
             this.btn_fuse_action_ow.Size = new System.Drawing.Size(78, 23);
             this.btn_fuse_action_ow.TabIndex = 54;
@@ -906,7 +906,7 @@
             // 
             // numUD_pulsedurationtime_ow
             // 
-            this.numUD_pulsedurationtime_ow.Location = new System.Drawing.Point(93, 80);
+            this.numUD_pulsedurationtime_ow.Location = new System.Drawing.Point(93, 73);
             this.numUD_pulsedurationtime_ow.Maximum = new decimal(new int[] {
             10,
             0,
@@ -934,7 +934,7 @@
             0,
             0,
             0});
-            this.num_UD_pulsewidth_ow.Location = new System.Drawing.Point(93, 51);
+            this.num_UD_pulsewidth_ow.Location = new System.Drawing.Point(93, 44);
             this.num_UD_pulsewidth_ow.Maximum = new decimal(new int[] {
             400,
             0,
@@ -960,7 +960,7 @@
             // 
             this.chb_FuseModeSwitch.AutoSize = true;
             this.chb_FuseModeSwitch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chb_FuseModeSwitch.Location = new System.Drawing.Point(14, 23);
+            this.chb_FuseModeSwitch.Location = new System.Drawing.Point(14, 16);
             this.chb_FuseModeSwitch.Name = "chb_FuseModeSwitch";
             this.chb_FuseModeSwitch.Size = new System.Drawing.Size(144, 20);
             this.chb_FuseModeSwitch.TabIndex = 0;
@@ -971,7 +971,7 @@
             // lbl_pulsedurationtime_ow
             // 
             this.lbl_pulsedurationtime_ow.AutoSize = true;
-            this.lbl_pulsedurationtime_ow.Location = new System.Drawing.Point(11, 85);
+            this.lbl_pulsedurationtime_ow.Location = new System.Drawing.Point(11, 78);
             this.lbl_pulsedurationtime_ow.Name = "lbl_pulsedurationtime_ow";
             this.lbl_pulsedurationtime_ow.Size = new System.Drawing.Size(76, 13);
             this.lbl_pulsedurationtime_ow.TabIndex = 52;
@@ -980,7 +980,7 @@
             // lbl_pulsewidth_ow
             // 
             this.lbl_pulsewidth_ow.AutoSize = true;
-            this.lbl_pulsewidth_ow.Location = new System.Drawing.Point(11, 55);
+            this.lbl_pulsewidth_ow.Location = new System.Drawing.Point(11, 48);
             this.lbl_pulsewidth_ow.Name = "lbl_pulsewidth_ow";
             this.lbl_pulsewidth_ow.Size = new System.Drawing.Size(67, 13);
             this.lbl_pulsewidth_ow.TabIndex = 49;
@@ -1012,16 +1012,16 @@
             this.grb_BurstI2CRW_OW.Controls.Add(this.txt_I2C_rw_num_owb);
             this.grb_BurstI2CRW_OW.Controls.Add(this.lbl_rw_num_burst_onewire);
             this.grb_BurstI2CRW_OW.Controls.Add(this.lbl_reg_addr_burst_onewire);
-            this.grb_BurstI2CRW_OW.Location = new System.Drawing.Point(207, 440);
+            this.grb_BurstI2CRW_OW.Location = new System.Drawing.Point(207, 424);
             this.grb_BurstI2CRW_OW.Name = "grb_BurstI2CRW_OW";
-            this.grb_BurstI2CRW_OW.Size = new System.Drawing.Size(314, 76);
+            this.grb_BurstI2CRW_OW.Size = new System.Drawing.Size(314, 65);
             this.grb_BurstI2CRW_OW.TabIndex = 79;
             this.grb_BurstI2CRW_OW.TabStop = false;
             this.grb_BurstI2CRW_OW.Text = "Burst Registers R/W";
             // 
             // btn_I2CWrite_Burst_Onewire
             // 
-            this.btn_I2CWrite_Burst_Onewire.Location = new System.Drawing.Point(238, 39);
+            this.btn_I2CWrite_Burst_Onewire.Location = new System.Drawing.Point(238, 33);
             this.btn_I2CWrite_Burst_Onewire.Name = "btn_I2CWrite_Burst_Onewire";
             this.btn_I2CWrite_Burst_Onewire.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CWrite_Burst_Onewire.TabIndex = 53;
@@ -1031,7 +1031,7 @@
             // 
             // btn_I2CRead_Burst_Onewire
             // 
-            this.btn_I2CRead_Burst_Onewire.Location = new System.Drawing.Point(165, 39);
+            this.btn_I2CRead_Burst_Onewire.Location = new System.Drawing.Point(165, 33);
             this.btn_I2CRead_Burst_Onewire.Name = "btn_I2CRead_Burst_Onewire";
             this.btn_I2CRead_Burst_Onewire.Size = new System.Drawing.Size(56, 23);
             this.btn_I2CRead_Burst_Onewire.TabIndex = 52;
@@ -1044,7 +1044,7 @@
             this.txt_reg_addr_owb.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_reg_addr_owb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_reg_addr_owb.ForeColor = System.Drawing.Color.White;
-            this.txt_reg_addr_owb.Location = new System.Drawing.Point(12, 40);
+            this.txt_reg_addr_owb.Location = new System.Drawing.Point(12, 34);
             this.txt_reg_addr_owb.Name = "txt_reg_addr_owb";
             this.txt_reg_addr_owb.Size = new System.Drawing.Size(56, 20);
             this.txt_reg_addr_owb.TabIndex = 50;
@@ -1056,7 +1056,7 @@
             this.txt_I2C_rw_num_owb.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_I2C_rw_num_owb.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_I2C_rw_num_owb.ForeColor = System.Drawing.Color.White;
-            this.txt_I2C_rw_num_owb.Location = new System.Drawing.Point(87, 40);
+            this.txt_I2C_rw_num_owb.Location = new System.Drawing.Point(87, 34);
             this.txt_I2C_rw_num_owb.Name = "txt_I2C_rw_num_owb";
             this.txt_I2C_rw_num_owb.Size = new System.Drawing.Size(56, 20);
             this.txt_I2C_rw_num_owb.TabIndex = 51;
@@ -1066,7 +1066,7 @@
             // lbl_rw_num_burst_onewire
             // 
             this.lbl_rw_num_burst_onewire.AutoSize = true;
-            this.lbl_rw_num_burst_onewire.Location = new System.Drawing.Point(87, 22);
+            this.lbl_rw_num_burst_onewire.Location = new System.Drawing.Point(87, 16);
             this.lbl_rw_num_burst_onewire.Name = "lbl_rw_num_burst_onewire";
             this.lbl_rw_num_burst_onewire.Size = new System.Drawing.Size(69, 13);
             this.lbl_rw_num_burst_onewire.TabIndex = 49;
@@ -1075,7 +1075,7 @@
             // lbl_reg_addr_burst_onewire
             // 
             this.lbl_reg_addr_burst_onewire.AutoSize = true;
-            this.lbl_reg_addr_burst_onewire.Location = new System.Drawing.Point(12, 22);
+            this.lbl_reg_addr_burst_onewire.Location = new System.Drawing.Point(12, 16);
             this.lbl_reg_addr_burst_onewire.Name = "lbl_reg_addr_burst_onewire";
             this.lbl_reg_addr_burst_onewire.Size = new System.Drawing.Size(46, 13);
             this.lbl_reg_addr_burst_onewire.TabIndex = 47;
@@ -1098,7 +1098,7 @@
             this.grb_devInfo_ow.Controls.Add(this.panel4);
             this.grb_devInfo_ow.Location = new System.Drawing.Point(11, 69);
             this.grb_devInfo_ow.Name = "grb_devInfo_ow";
-            this.grb_devInfo_ow.Size = new System.Drawing.Size(168, 259);
+            this.grb_devInfo_ow.Size = new System.Drawing.Size(168, 242);
             this.grb_devInfo_ow.TabIndex = 77;
             this.grb_devInfo_ow.TabStop = false;
             this.grb_devInfo_ow.Text = "General Setting";
@@ -1155,7 +1155,7 @@
             this.txt_dev_addr_onewire.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_dev_addr_onewire.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_dev_addr_onewire.ForeColor = System.Drawing.Color.White;
-            this.txt_dev_addr_onewire.Location = new System.Drawing.Point(83, 48);
+            this.txt_dev_addr_onewire.Location = new System.Drawing.Point(83, 44);
             this.txt_dev_addr_onewire.Name = "txt_dev_addr_onewire";
             this.txt_dev_addr_onewire.Size = new System.Drawing.Size(56, 20);
             this.txt_dev_addr_onewire.TabIndex = 45;
@@ -1165,7 +1165,7 @@
             // lbl_devAddr_onewire
             // 
             this.lbl_devAddr_onewire.AutoSize = true;
-            this.lbl_devAddr_onewire.Location = new System.Drawing.Point(14, 52);
+            this.lbl_devAddr_onewire.Location = new System.Drawing.Point(14, 46);
             this.lbl_devAddr_onewire.Name = "lbl_devAddr_onewire";
             this.lbl_devAddr_onewire.Size = new System.Drawing.Size(55, 13);
             this.lbl_devAddr_onewire.TabIndex = 44;
@@ -1176,7 +1176,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label9.Location = new System.Drawing.Point(14, 208);
+            this.label9.Location = new System.Drawing.Point(14, 195);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(82, 13);
             this.label9.TabIndex = 90;
@@ -1186,7 +1186,7 @@
             // 
             this.panel1.Controls.Add(this.rbt_CLKBuffered_No_OWCI);
             this.panel1.Controls.Add(this.rbt_CLKBuffered_Yes_OWCI);
-            this.panel1.Location = new System.Drawing.Point(16, 93);
+            this.panel1.Location = new System.Drawing.Point(16, 80);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(115, 23);
             this.panel1.TabIndex = 83;
@@ -1219,7 +1219,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(14, 78);
+            this.label3.Location = new System.Drawing.Point(14, 65);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 84;
@@ -1229,7 +1229,7 @@
             // 
             this.panel2.Controls.Add(this.rbt_DataBuffered_No_OWCI);
             this.panel2.Controls.Add(this.rbt_DataBuffered_Yes_OWCI);
-            this.panel2.Location = new System.Drawing.Point(16, 137);
+            this.panel2.Location = new System.Drawing.Point(16, 124);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(115, 23);
             this.panel2.TabIndex = 85;
@@ -1262,7 +1262,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label4.Location = new System.Drawing.Point(14, 122);
+            this.label4.Location = new System.Drawing.Point(14, 109);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 13);
             this.label4.TabIndex = 86;
@@ -1272,7 +1272,7 @@
             // 
             this.panel3.Controls.Add(this.rbt_SetLR_High_OWCI);
             this.panel3.Controls.Add(this.rbt_SetLR_Low_OWCI);
-            this.panel3.Location = new System.Drawing.Point(16, 179);
+            this.panel3.Location = new System.Drawing.Point(16, 166);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(115, 23);
             this.panel3.TabIndex = 87;
@@ -1305,7 +1305,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label5.Location = new System.Drawing.Point(14, 164);
+            this.label5.Location = new System.Drawing.Point(14, 151);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 13);
             this.label5.TabIndex = 88;
@@ -1315,7 +1315,7 @@
             // 
             this.panel4.Controls.Add(this.rbt_OWCICTLThru_LR_OWCI);
             this.panel4.Controls.Add(this.rbt_OWCICTLThru_Config_OWCI);
-            this.panel4.Location = new System.Drawing.Point(16, 223);
+            this.panel4.Location = new System.Drawing.Point(16, 210);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(115, 23);
             this.panel4.TabIndex = 89;
@@ -1345,7 +1345,7 @@
             // 
             // btn_flash_onewire
             // 
-            this.btn_flash_onewire.Location = new System.Drawing.Point(108, 493);
+            this.btn_flash_onewire.Location = new System.Drawing.Point(108, 455);
             this.btn_flash_onewire.Name = "btn_flash_onewire";
             this.btn_flash_onewire.Size = new System.Drawing.Size(71, 23);
             this.btn_flash_onewire.TabIndex = 75;
@@ -1355,7 +1355,7 @@
             // 
             // btn_GetFW_OneWire
             // 
-            this.btn_GetFW_OneWire.Location = new System.Drawing.Point(11, 493);
+            this.btn_GetFW_OneWire.Location = new System.Drawing.Point(11, 455);
             this.btn_GetFW_OneWire.Name = "btn_GetFW_OneWire";
             this.btn_GetFW_OneWire.Size = new System.Drawing.Size(71, 23);
             this.btn_GetFW_OneWire.TabIndex = 76;
@@ -1465,7 +1465,7 @@
             // 
             // btn_Excute_Onewire
             // 
-            this.btn_Excute_Onewire.Location = new System.Drawing.Point(216, 628);
+            this.btn_Excute_Onewire.Location = new System.Drawing.Point(218, 591);
             this.btn_Excute_Onewire.Name = "btn_Excute_Onewire";
             this.btn_Excute_Onewire.Size = new System.Drawing.Size(76, 23);
             this.btn_Excute_Onewire.TabIndex = 74;
@@ -1475,7 +1475,7 @@
             // 
             // btn_LoadScript_Onewire
             // 
-            this.btn_LoadScript_Onewire.Location = new System.Drawing.Point(119, 628);
+            this.btn_LoadScript_Onewire.Location = new System.Drawing.Point(121, 591);
             this.btn_LoadScript_Onewire.Name = "btn_LoadScript_Onewire";
             this.btn_LoadScript_Onewire.Size = new System.Drawing.Size(76, 23);
             this.btn_LoadScript_Onewire.TabIndex = 74;
@@ -1485,7 +1485,7 @@
             // 
             // btn_SaveScript_Onewire
             // 
-            this.btn_SaveScript_Onewire.Location = new System.Drawing.Point(22, 628);
+            this.btn_SaveScript_Onewire.Location = new System.Drawing.Point(24, 591);
             this.btn_SaveScript_Onewire.Name = "btn_SaveScript_Onewire";
             this.btn_SaveScript_Onewire.Size = new System.Drawing.Size(76, 23);
             this.btn_SaveScript_Onewire.TabIndex = 74;
@@ -1577,7 +1577,7 @@
             this.groupBox2.Controls.Add(this.btn_Excute_Onewire);
             this.groupBox2.Location = new System.Drawing.Point(903, 72);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(330, 662);
+            this.groupBox2.Size = new System.Drawing.Size(330, 626);
             this.groupBox2.TabIndex = 96;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Script Window";
@@ -1593,7 +1593,7 @@
             this.txt_ScriptWin.Margin = new System.Windows.Forms.Padding(2);
             this.txt_ScriptWin.Name = "txt_ScriptWin";
             this.txt_ScriptWin.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.txt_ScriptWin.Size = new System.Drawing.Size(324, 603);
+            this.txt_ScriptWin.Size = new System.Drawing.Size(324, 565);
             this.txt_ScriptWin.TabIndex = 96;
             this.txt_ScriptWin.Text = "";
             // 
@@ -1705,7 +1705,7 @@
             this.groupBox3.Controls.Add(this.btn_LoadOtp_Onewire);
             this.groupBox3.Location = new System.Drawing.Point(542, 72);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(340, 662);
+            this.groupBox3.Size = new System.Drawing.Size(340, 626);
             this.groupBox3.TabIndex = 97;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "OTP Window";
@@ -1715,7 +1715,7 @@
             this.txt_PartNum.BackColor = System.Drawing.Color.CadetBlue;
             this.txt_PartNum.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_PartNum.ForeColor = System.Drawing.Color.White;
-            this.txt_PartNum.Location = new System.Drawing.Point(56, 599);
+            this.txt_PartNum.Location = new System.Drawing.Point(56, 561);
             this.txt_PartNum.Name = "txt_PartNum";
             this.txt_PartNum.Size = new System.Drawing.Size(218, 20);
             this.txt_PartNum.TabIndex = 92;
@@ -1725,7 +1725,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(6, 603);
+            this.label15.Location = new System.Drawing.Point(6, 565);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(54, 13);
             this.label15.TabIndex = 93;
@@ -1736,13 +1736,13 @@
             this.panelRegTable.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelRegTable.Location = new System.Drawing.Point(3, 16);
             this.panelRegTable.Name = "panelRegTable";
-            this.panelRegTable.Size = new System.Drawing.Size(334, 573);
+            this.panelRegTable.Size = new System.Drawing.Size(334, 535);
             this.panelRegTable.TabIndex = 75;
             // 
             // btn_ReadOtp_Onewire
             // 
             this.btn_ReadOtp_Onewire.AutoSize = true;
-            this.btn_ReadOtp_Onewire.Location = new System.Drawing.Point(151, 627);
+            this.btn_ReadOtp_Onewire.Location = new System.Drawing.Point(151, 589);
             this.btn_ReadOtp_Onewire.Name = "btn_ReadOtp_Onewire";
             this.btn_ReadOtp_Onewire.Size = new System.Drawing.Size(45, 25);
             this.btn_ReadOtp_Onewire.TabIndex = 74;
@@ -1752,7 +1752,7 @@
             // 
             // btn_WriteOtp_Onewi
             // 
-            this.btn_WriteOtp_Onewi.Location = new System.Drawing.Point(218, 627);
+            this.btn_WriteOtp_Onewi.Location = new System.Drawing.Point(218, 589);
             this.btn_WriteOtp_Onewi.Name = "btn_WriteOtp_Onewi";
             this.btn_WriteOtp_Onewi.Size = new System.Drawing.Size(45, 24);
             this.btn_WriteOtp_Onewi.TabIndex = 74;
@@ -1765,7 +1765,7 @@
             this.btn_BlowOtp_Onewire.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_BlowOtp_Onewire.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_BlowOtp_Onewire.ForeColor = System.Drawing.Color.Red;
-            this.btn_BlowOtp_Onewire.Location = new System.Drawing.Point(280, 598);
+            this.btn_BlowOtp_Onewire.Location = new System.Drawing.Point(280, 560);
             this.btn_BlowOtp_Onewire.Name = "btn_BlowOtp_Onewire";
             this.btn_BlowOtp_Onewire.Size = new System.Drawing.Size(57, 52);
             this.btn_BlowOtp_Onewire.TabIndex = 74;
@@ -1775,7 +1775,7 @@
             // 
             // btn_SaveOtp_Onewire
             // 
-            this.btn_SaveOtp_Onewire.Location = new System.Drawing.Point(17, 627);
+            this.btn_SaveOtp_Onewire.Location = new System.Drawing.Point(17, 589);
             this.btn_SaveOtp_Onewire.Name = "btn_SaveOtp_Onewire";
             this.btn_SaveOtp_Onewire.Size = new System.Drawing.Size(45, 24);
             this.btn_SaveOtp_Onewire.TabIndex = 74;
@@ -1785,7 +1785,7 @@
             // 
             // btn_LoadOtp_Onewire
             // 
-            this.btn_LoadOtp_Onewire.Location = new System.Drawing.Point(84, 627);
+            this.btn_LoadOtp_Onewire.Location = new System.Drawing.Point(84, 589);
             this.btn_LoadOtp_Onewire.Name = "btn_LoadOtp_Onewire";
             this.btn_LoadOtp_Onewire.Size = new System.Drawing.Size(45, 24);
             this.btn_LoadOtp_Onewire.TabIndex = 74;
@@ -1825,7 +1825,7 @@
             this.groupBox4.Controls.Add(this.btn_I2CRead_DGV_Onewire);
             this.groupBox4.Controls.Add(this.txt_reg_data_ows1);
             this.groupBox4.Controls.Add(this.btn_I2CRead_Single_Onewire1);
-            this.groupBox4.Location = new System.Drawing.Point(11, 523);
+            this.groupBox4.Location = new System.Drawing.Point(12, 491);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(510, 207);
             this.groupBox4.TabIndex = 98;
@@ -1879,8 +1879,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1249, 761);
+            this.ClientSize = new System.Drawing.Size(1249, 723);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
@@ -1896,8 +1897,11 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "OWCIWinDLG";
-            this.Text = "One Wire Control Interface v1.7.6.5 Copyright@InvenSense Inc";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "One Wire Control Interface v1.7.6.6 Copyright@InvenSense Inc";
+            this.Load += new System.EventHandler(this.OWCIWinDLG_Load);
             this.statusStrip.ResumeLayout(false);
             this.statusStrip.PerformLayout();
             this.grb_SingleI2CRW_OW.ResumeLayout(false);
